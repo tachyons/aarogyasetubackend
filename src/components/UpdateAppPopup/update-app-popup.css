@@ -1,0 +1,75 @@
+.popOverlayNew {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+}
+
+.popContentWrap {
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  z-index: 999;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.popContentInnerWrap {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  box-shadow: 0px 0px 3px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  flex-direction: column;
+}
+
+.headeTextWrap {
+  width: 100%;
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.headeTextWrap p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.popInfoTextWrap {
+  width: 100%;
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.popInfoTextWrap p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 1.25;
+}
+
+.popBtnWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 15px;
+  align-items: center;
+}
+
+.btnUpdate {
+  font-size: 14px;
+  background-color: #287936;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 7px 15px;
+  margin-left: 20px;
+}

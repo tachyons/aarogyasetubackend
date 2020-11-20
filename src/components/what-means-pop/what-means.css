@@ -1,0 +1,99 @@
+.overlayBlock {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100vh;
+  z-index: 999;
+}
+
+.whatMeansOuterBlock {
+  width: 100%;
+  max-height: 90%;
+  background-color: #fff;
+  border-radius: 16px 16px 0 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+  height: 90%;
+  overflow: auto;
+  -ms-overflow-style: none;
+}
+.whatMeansOuterBlock::-webkit-scrollbar {
+  display: none;
+}
+
+.popHeaderWrap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 15px 18px;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.4);
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  border-radius: 16px 16px 0 0;
+  height: 55px;
+}
+
+.closeWrap {
+  width: 24px;
+  height: 24px;
+  display: flex;
+}
+
+.closeWrap img {
+  width: 24px;
+  height: 24px;
+}
+
+.headerText {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  color: rgb(36, 40, 51);
+  font-weight: 600;
+}
+
+.whatPopContentWrap {
+  width: 100%;
+  display: flex;
+  padding: 15px 25px 0px;
+  max-height: 950px;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.whatPopContentInnerWrap {
+  display: flex;
+  width: 100%;
+  padding-bottom: 25px;
+  flex-direction: column;
+}
+
+.whatInfoHeadText {
+  font-size: 14px;
+  color: rgb(57, 56, 64);
+  font-weight: bold;
+}
+
+.whatInfoSubText {
+  font-size: 13px;
+  color: rgb(57, 54, 64);
+  padding-top: 5px;
+  line-height: 1.25;
+}
+
+.pinkText {
+  color: rgb(240, 99, 114);
+  font-weight: 600;
+}
+
+.greenText {
+  color: rgb(36, 153, 149);
+  font-weight: 600;
+}

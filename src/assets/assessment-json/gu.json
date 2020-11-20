@@ -1,0 +1,122 @@
+{
+  "dialogue": {
+    "title": "કૃપા કરીને સાચા જવાબો આપો",
+    "message": "સચોટ જવાબો અમને મદદ કરે છે - તમને વધુ સારી રીતે સહાય કરશે. તબીબી અને સહાયક સ્ટાફ મૂલ્યવાન અને ખૂબ મર્યાદિત છે. જવાબદાર નાગરિક બનો.",
+    "cta": "બરાબર, સમજાયું"
+  },
+  "start": "કૃપા કરીને નોંધ લેશો કે આ ચેટ તે માહિતી COVID -19 સામેની લડાઈમાં વર્તમાન આરોગ્ય કટોકટી અને સંશોધન મોનિટરિંગ અને સંચાલન માટે ઉપયોગ કરવામાં આવશે",
+  "gender": {
+    "label": "તમારું લિંગ શું છે?",
+    "possible_values": [
+      {"key": 1, "value": "Male", "text": "પુરુષ"},
+      {"key": 2, "value": "Female", "text": "સ્ત્રી"},
+      {"key": 3, "value": "Other", "text": "અન્ય"}
+    ]
+  },
+  "age": {"label": "કૃપા કરીને તમારી ઉંમર લખો."},
+  "symptoms": {
+    "label": "શું તમે નીચેના લક્ષણોમાંથી કોઈ અનુભવી રહ્યા છો?",
+    "possible_values": [
+      {"value": "Cough", "key": 1, "text": "ખાંસી"},
+      {"value": "Fever", "key": 2, "text": "તાવ"},
+      {"value": "Difficulty in Breathing", "key": 3, "text": "શ્વાસ લેવામાં મુશ્કેલી"},
+      {"value": "None of the Above", "key": 0, "text": "ઉપર્યુક્તમાંથી કોઈ નહિ"}
+    ]
+  },
+  "past": {
+    "label": "શું તમને ક્યારેય નીચેનો રોગ થયો છે?",
+    "possible_values": [
+      {"value": "Diabetes", "key": 1, "text": "ડાયાબિટીસ"},
+      {"value": "Hypertension", "key": 2, "text": "હાયપરટેન્શન"},
+      {"value": "Lung disease", "text": "ફેફસાના રોગ", "key": 3},
+      {"value": "Heart Disease", "key": 4, "text": "હૃદય રોગ"},
+      {"value": "None of the Above", "text": "ઉપર્યુક્તમાંથી કોઈ નહિ", "key": 0}
+    ]
+  },
+  "symptom_past": {
+    "label": "શું તમને ક્યારેય નીચેનો રોગ થયો છે?",
+    "possible_values": [
+      {"value": "Diabetes", "key": 1, "text": "ડાયાબિટીસ"},
+      {"value": "Hypertension", "key": 2, "text": "હાયપરટેન્શન"},
+      {"value": "Lung disease", "text": "ફેફસાના રોગ", "key": 3},
+      {"value": "Heart Disease", "key": 4, "text": "હૃદય રોગ"},
+      {"value": "None of the Above", "text": "ઉપર્યુક્તમાંથી કોઈ નહિ", "key": 0}
+    ]
+  },
+  "travel": {
+    "label": "તમે છેલ્લા 28-45 દિવસમાં આંતરરાષ્ટ્રીય સ્તરે ક્યાંય પ્રવાસ કર્યો છે?",
+    "possible_values": [
+      {"value": "Yes", "text": "હા", "key": 1},
+      {"value": "No", "text": "ના", "key": 0}
+    ]
+  },
+  "social": {
+    "label": "નીચેનામાંથી કયા તમને લાગુ પડે છે?",
+    "possible_values": [
+      {
+        "value": "I have recently interacted or lived with someone who has tested positive for COVID -19",
+        "text": "મેં તાજેતરમાં કોઈની સાથે વાતચીત કરી છે અથવા તેની સાથે રહી છું જેણે COVID-19 માટે સકારાત્મક પરીક્ષણ કર્યું છે",
+        "key": 1
+      },
+      {
+        "value": "I am a healthcare worker and I examined a COVID-19 confirmed case without protective gear",
+        "text": "હું હેલ્થકેર કાર્યકર છું અને મેં રક્ષણાત્મક ગિયર વિના COVID-19 પુષ્ટિ કેસની તપાસ કરી",
+        "key": 2
+      },
+      {"value": "None of the above", "text": "ઉપર્યુક્તમાંથી કોઈ નહિ", "key": 0}
+    ]
+  },
+  "social_when": {
+    "label": "આ ક્રિયાપ્રતિક્રિયા ક્યારે થઈ?",
+    "possible_values": [
+      {"value": "Less than 5 days ago", "text": "5 દિવસથી ઓછા", "key": 1},
+      {"value": "Greater than 5 days ago", "text": "5 દિવસથી વધુ", "key": 2},
+      {"value": "Greater than 14 days ago", "text": "14 દિવસથી વધુ", "key": 3}
+    ]
+  },
+  "symptom_past_travel_social": {
+    "label": "નીચેનામાંથી કયા તમને લાગુ પડે છે?",
+    "possible_values": [
+      {
+        "value": "Traveled internationally in the last 14 days",
+        "text": "છેલ્લા 14 દિવસમાં આંતરરાષ્ટ્રીય સ્તરે પ્રવાસ કર્યો",
+        "key": 1
+      },
+      {
+        "value": "Recently interacted or lived or currently live with someone who has tested positive for COVID -19",
+        "text": "તાજેતરમાં સંપર્ક કરેલ અથવા જીવંત અથવા હાલમાં કોઈની સાથે જીવો જેણે સીઓવીડ -19 માટે સકારાત્મક પરીક્ષણ કર્યું છે",
+        "key": 2
+      },
+      {"value": "Am a healthcare worker", "text": "હું હેલ્થકેર વર્કર છું", "key": 3},
+      {"value": "None of the Above", "text": "ઉપર્યુક્તમાંથી કોઈ નહિ", "key": 0}
+    ]
+  },
+  "great": {
+    "label": "<p>તમને ચેપનું જોખમ ઓછું છે. અમે ભલામણ કરીએ છીએ કે તમે નોવેલ કોરોનાવાયરસના સંપર્કમાં આવવાની કોઈ સંભાવના ટાળવા માટે ઘરે જ રહો.<br><br></p><p>જો તમે લક્ષણો વિકસિત કરો અથવા કોઈ COVID-19 પોઝીટીવે દર્દીના સંપર્કમાં આવો તો સ્વ-ચકાસણી પરીક્ષણ ફરીથી કરો.</p><br/><p> વધુ માહિતી માટે <a target='_blank' href='https://www.mohfw.gov.in/'>https://www.mohfw.gov.in/</a>ની મુલાકાત લો.</p>"
+  },
+  "unwell": {
+    "label": "<p>તમારા બીમાર હોવા છતાં, તમને ચેપનું જોખમ ઓછું છે.</p> <br><p>યાદ રાખો કે હાલમાં હોસ્પિટલની મુલાકાત લેવા કરતાં ફોન અથવા વીડિયો દ્વારા ડૉક્ટરની સલાહ લેવી વધુ સલામત છે. અમે ભલામણ કરીએ છીએ કે તમે નોવેલ કોરોનાવાયરસના સંપર્કમાં આવવાની કોઈ સંભાવના ટાળવા માટે ઘરે જ રહો.</ p> <p> વધુ માહિતી માટે <a target='_blank' href='https://www.mohfw.gov.in/'> https://www.mohfw.gov.in/ </a> ની મુલાકાત લો.< / p>"
+  },
+  "not_eligible": {
+    "label": "<p>તમને ચેપનું જોખમ મધ્યમ છે. અમે ભલામણ કરીએ છીએ કે તમે નોવેલ કોરોનાવાયરસના સંપર્કમાં આવવાની કોઈ સંભાવના ટાળવા માટે ઘરે જ રહો અને સ્વ-અલગ થાઓ.</p><p></p><p><br><br>જો તમને લક્ષણો વિકસિત થાય અથવા કોવિડ -19 પુષ્ટિ થયેલ દર્દીના સંપર્કમાં આવે તો સ્વ-ચકાસણી પરીક્ષણ ફરીથી કરો.<br><br></p><p></p><p>વધુ માહિતી માટે <a target='_blank' href='https://www.mohfw.gov.in/'>https://www.mohfw.gov.in/</a>ની મુલાકાત લો.</p>"
+  },
+  "quarantine": {
+    "label": "<p>તમને ચેપનું જોખમ મધ્યમ છે. તમારી યાત્રા ના 14 દિવસ સુધી કૃપા કરીને હોમ ક્વોરેન્ટાઇનમાં જ રહો. ભલે તમે એકદમ સ્વસ્થ અનુભવો, તો પણ લક્ષણો બતાવવા માટે 2 અઠવાડિયા સુધીનો સમય લાગી શકે છે.</p><p></p><p> <br> <br> ખાંસી, તાવ કે શ્વાસ લેવામાં માં તકલીફ નો અનુભવ થાય તો ટોલ-ફ્રી સહાય હેલ્પલાઈન 1075 પર કોલ કરી ને પરીક્ષણ શેડ્યૂલ કરવું ફરજિયાત છે. </p><br/><p>સ્વ-અલગતા માટે સૂચવેલ પગલા: કોઈપણ કારણસર તમારું ઘર ન છોડો, તમારા ઘરે મુલાકાતીઓ, જેમ કે મિત્રો અને કુટુંબીઓ ને ના બોલાવો. તમારા ઘરના અન્ય લોકોથી ઓછામાં ઓછા 6 ફુટ દૂર રહો, સ્વચ્છતા રાખો અને વારંવાર હાથ ધોવો, ટુવાલ અને વાસણો જેવી ચીજો શેર કરશો નહીં.</p><p> <br> <br> Do visit <a target='_blank' href='https://www.mohfw.gov.in/'>https://www.mohfw.gov.in/</a> for guidelines on home quarantine and taking care.</p> <p>Please remember to stay quarantined for 14 days after your travel. While you are feeling absolutely healthy, it can take up to 2 weeks for symptoms to show, even if you are infected. </p><p></p><p><br><br>If you experience any coughing, fever or difficulty breathing in the next two weeks, you must immediately go for testing. </p><p></p><p><br><br>Do visit <a target='_blank' href='https://www.mohfw.gov.in/'>https://www.mohfw.gov.in/</a> for guidelines on home quarantine and taking care.</p>Screen reader support enabled.   \t\t<p>Please remember to stay quarantined for 14 days after your travel. While you are feeling absolutely healthy, it can take up to 2 weeks for symptoms to show, even if you are infected. </p><p></p><p><br><br>If you experience any coughing, fever or difficulty breathing in the next two weeks, you must immediately go for testing. </p><p></p><p><br><br>ઘરેલુ સંલગ્નતા અને કાળજી લેવા અંગેના માર્ગદર્શિકા માટે  <a target='_blank' href='https://www.mohfw.gov.in/'>https://www.mohfw.gov.in/</a> ની મુલાકાત લો.</p>"
+  },
+  "eligible_suspect": {
+    "label": "<p>તમને ચેપનું જોખમ મધ્યમ છે. જો તમે COVID-19 પોઝીટીવે દર્દીના સાથે રહ્યા હોવ અથવા રહેતા હો, તો કૃપા કરીને હોમ ક્વોરેન્ટાઇનમાં જ રહો. ભલે તમે એકદમ સ્વસ્થ અનુભવો, તો પણ લક્ષણો બતાવવા માટે 2 અઠવાડિયા સુધીનો સમય લાગી શકે છે.<br><br><br>જો કોઈ લક્ષણો દેખાય તો કૃપા કરી 5 થી 14 દિવસની અંદર-અંદર વહેલી તકે પરીક્ષણ કરો.<br><p><br>પરીક્ષણ કેન્દ્રોની સૂચિ: <a target='_blank' href='https://icmr.nic.in/node/39071'> https://icmr.nic.in/node/39071 </a><br><br></p><p>ઘરના સંસર્ગનિષેધ સૂચવેલા વ્યવહાર: ઘરે રહો, મુલાકાતીઓ ના બોલાવો, તમારા ઘરના અન્ય લોકોથી ઓછામાં ઓછા 6 ફુટ દૂર રહો, સ્વચ્છતા રાખો અને વારંવાર હાથ ધોવો, ટુવાલ અને વાસણો જેવી ચીજો શેર કરશો નહીં. </p><br/><br><p>ઘરેલુ સંસર્ગનિષેધ અને સંભાળ લેવા અંગેના માર્ગદર્શિકા માટે <a target = '_blank' href='https://www.mohfw.gov.in/ '> https://www.mohfw.gov.in/ </a> ની મુલાકાત લો.</ p>"
+  },
+  "eligible": {
+    "label": "<p>તમને પરીક્ષણ માટે સલાહ આપવામાં આવે છે કારણ કે તમને ચેપનું જોખમ વધારે છે. કૃપા કરીને તમારા પરીક્ષણને શેડ્યૂલ કરવા માટે ટોલ-ફ્રી સહાય હેલ્પલાઈન 1075 પર કોલ કરો.</ P> <p><br>પરીક્ષણ કેન્દ્રોની સૂચિ: <a target='_blank' href='https://icmr.nic.in/node/39071'> https://icmr.nic.in/node/39071 </a><br><br></p><p></p> <p>પરીક્ષણ અને સંસર્ગનિષેધ માર્ગદર્શિકા અંગેની વધુ માહિતી માટે <a target = '_blank' href='https://www.mohfw.gov.in/ '> https://www.mohfw.gov.in/ </a> ની મુલાકાત લો.</p>"
+  },
+  "eligible_travel": {
+    "label": "<p>તમને પરીક્ષણ માટે સલાહ આપવામાં આવે છે કારણ કે તમને ચેપનું જોખમ વધારે છે. કૃપા કરીને તમારા પરીક્ષણને શેડ્યૂલ કરવા માટે ટોલ-ફ્રી સહાય હેલ્પલાઈન 1075 પર કોલ કરો.</ P> <p><br>પરીક્ષણ કેન્દ્રોની સૂચિ: <a target='_blank' href='https://icmr.nic.in/node/39071'> https://icmr.nic.in/node/39071 </a><br><br></p><p></p> <p>પરીક્ષણ અને સંસર્ગનિષેધ માર્ગદર્શિકા અંગેની વધુ માહિતી માટે <a target = '_blank' href='https://www.mohfw.gov.in/ '> https://www.mohfw.gov.in/ </a> ની મુલાકાત લો.</p>"
+  },
+  "confirm": {
+    "label": "<p>આ મૂલ્યાંકન લેવા બદલ આભાર.</p><br><br><p>જો તમારા દ્વારા આપવામાં આવેલી માહિતી સચોટ છે, તો તે સૂચવે છે કે તમે કાં તો અસ્વસ્થ છો અથવા જોખમે છો. તમારા પરીક્ષણ પરિણામો અને સ્થાન ઇતિહાસને આરોગ્ય મંત્રાલયને મોકલવાની જરૂર છે જેથી તમને ચેપ ફેલાય તેવા સંભવિત હોટસ્પોટ્સને ઓળખવામાં મદદ મળી શકે.</p><br/><br/><p>જો માહિતી સચોટ હોય તો કૃપા કરીને ભારત સરકારને માહિતી અપલોડ કરવા માટે Ok દબાવો.</p>",
+    "possible_values": [
+      {"value": "Confirm and Proceed", "text": "Ok", "key": 1},
+      {"value": "I will do it later", "text": "પાછળથી", "key": 2}
+    ]
+  }
+}

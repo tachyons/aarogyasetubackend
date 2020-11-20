@@ -1,0 +1,166 @@
+.pageContentWrapper {
+  position: relative;
+  z-index: 999;
+}
+
+.statusOuterWrapper {
+  top: 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  background-color: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  z-index: 999;
+}
+
+.statusInnerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.statusInnerWrapper > span {
+  background-color: #fff;
+  width: 100%;
+  height: 4px;
+  border-radius: 10px 10px 0 0;
+}
+
+.statusInnerWrapper.active {
+  color: rgb(0, 140, 255);
+  font-weight: 600;
+}
+
+.statusInnerWrapper.active > .statusText {
+  color: rgb(0, 140, 255);
+}
+
+.statusInnerWrapper.active > span {
+  background-color: rgb(0, 140, 255);
+}
+
+.statusInnerWrapperactive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(0, 140, 255);
+  border-bottom: 5px solid rgb(0, 140, 255);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 10px;
+  font-weight: 600;
+}
+
+.statusText {
+  font-size: 12px;
+  color: rgb(74, 74, 74);
+  padding-top: 5px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+div.statusInnerWrapper.active > .userstatus {
+  background: url(/assets/youstatusactive.png) no-repeat;
+  width: 33px;
+  height: 33px;
+  background-size: 100%;
+}
+
+.navigationBarIcon {
+  width: 33px;
+  height: 33px;
+}
+
+div.statusInnerWrapper > .userstatus {
+  background: url(/assets/yourstatus.png) no-repeat;
+  width: 33px;
+  height: 33px;
+  background-size: 100%;
+}
+
+div.statusInnerWrapper.active > .selfaccess {
+  background: url(/assets/icSelfactive.png) no-repeat;
+  width: 33px;
+  height: 33px;
+  background-size: 100%;
+}
+
+div.statusInnerWrapper > .selfaccess {
+  background: url(/assets/icSelf.png) no-repeat;
+  width: 33px;
+  height: 33px;
+  background-size: 100%;
+}
+
+div.statusInnerWrapper.active > .covidupdateImgWrap {
+  background: url(/assets/icStatsactive.png) no-repeat;
+  width: 33px;
+  height: 33px;
+  background-size: 100%;
+}
+
+div.statusInnerWrapper > .covidupdateImgWrap {
+  background: url(/assets/icStatsinactive.png) no-repeat;
+  width: 33px;
+  height: 33px;
+  background-size: 100%;
+}
+
+div.statusInnerWrapper.active > .epassWrapper {
+  background: url(/assets/icEpassactive.png) no-repeat;
+  width: 33px;
+  height: 33px;
+  background-size: 100%;
+}
+
+div.statusInnerWrapper > .epassWrapper {
+  background: url(/assets/icEpass.png) no-repeat;
+  width: 33px;
+  height: 33px;
+  background-size: 100%;
+}
+
+div.statusInnerWrapper.active > .mediaWrapper {
+  background: url(/assets/icMediaActive.png) no-repeat;
+  width: 33px;
+  height: 33px;
+  background-size: 100%;
+}
+
+div.statusInnerWrapper > .mediaWrapper {
+  background: url(/assets/icMedia.png) no-repeat;
+  width: 33px;
+  height: 33px;
+  background-size: 100%;
+}
+
+.appUserInfo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: rgb(234, 245, 255);
+  padding: 0 17px;
+  height: 25px;
+  align-items: center;
+  display: flex;
+}
+
+.userCountText {
+  font-size: 11px;
+  color: rgb(74, 74, 74);
+  font-weight: 600;
+}
+
+.appUserInfo img {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}

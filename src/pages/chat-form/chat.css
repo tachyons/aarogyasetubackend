@@ -1,0 +1,837 @@
+body {
+  background-color: rgb(216, 216, 216);
+}
+.chatOuterWrap {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  position: relative;
+  z-index: 1000;
+  background-color: #f0f1ec;
+  padding: 10px 20px;
+  min-height: 100vh;
+}
+
+.chatFormOuterWrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.symptomWrap {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+a.botui-message-content-link:focus:active,
+a.botui-message-content-link:focus:hover {
+  outline: 0;
+}
+
+form.botui-actions-text {
+  margin: 0;
+}
+
+
+
+button.botui-actions-buttons-button .fa {
+  color: white;
+}
+button.botui-actions-buttons-button span {
+  display: none;
+}
+
+button.botui-actions-buttons-button::-moz-focus-inner,
+input.botui-actions-text-input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.botui-app-container {
+  width: 100%;
+  height: 100%;
+  line-height: 1;
+}
+
+@media (min-width: 400px) {
+  .botui-app-container {
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+  }
+}
+
+.botui-container {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.botui-message {
+  margin: 10px 0;
+  min-height: 20px;
+}
+
+.botui-message:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.botui-message-content {
+  width: auto;
+  max-width: 75%;
+}
+
+.botui-message-content.human {
+  float: right;
+}
+
+.botui-message-content iframe {
+  width: 100%;
+}
+
+.botui-message-content-image {
+  margin: 5px 0;
+  display: block;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.botui-message-content-link {
+  text-decoration: underline;
+}
+
+.profil {
+  position: relative;
+  border-radius: 50%;
+}
+
+.profil.human {
+  float: right;
+  margin-left: 5px;
+}
+
+.profil.agent {
+  float: left;
+  margin-right: 5px;
+}
+
+.profil > img {
+  width: 26px;
+  height: 26px;
+  border: 2px solid #e8e8e8;
+}
+
+.profil > img.agent {
+  content: url(http://decodemoji.com/img/logos/blue_moji_hat.svg);
+  border-radius: 50%;
+}
+
+button.botui-actions-buttons-button {
+  cursor: pointer;
+  -webkit-appearance: button;
+  margin-top: 10px;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+}
+
+button.botui-actions-buttons-button:not(:last-child) {
+  margin-right: 10px;
+}
+
+@media (min-width: 400px) {
+  .botui-actions-text-submit {
+    display: none;
+  }
+}
+
+@import url(https://fonts.googleapis.com/css?family=roboto);
+@import url(https://fonts.googleapis.com/css?family=avenir);
+.botui-container {
+  font-size: 14px;
+  background-color: #fff;
+  font-family: avenir, sans-serif;
+}
+
+.botui-actions-container,
+.botui-messages-container {
+  padding: 10px 20px;
+}
+
+.botui-message {
+  min-height: 30px;
+}
+
+.botui-message-content {
+  padding: 7px 13px;
+  border-radius: 15px;
+  color: #595a5a;
+  background-color: #652c90;
+  display: inline-flex;
+}
+
+.botui-message-content.human {
+  color: #f7f8f8;
+  background-color: #fdb713;
+}
+.botui-message-content.humanView {
+  background-color: #fff;
+  align-items: flex-end;
+  border-radius: 15px 15px 3px 15px;
+  align-self: flex-end;
+}
+
+.botui-message-content.humanView.text span {
+  font-size: 13px;
+  color: rgb(74, 74, 74) !important;
+}
+
+.botui-message-content.text {
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+.botui-message-content.text span {
+  color: #fff !important;
+  font-size: 13px;
+}
+
+.botui-message-content.text span p {
+  color: #fff !important;
+  font-size: 13px;
+}
+
+.botui-message-content.text span p a {
+  color: #fff !important;
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+.human.botui-message-content.text span {
+  color: #393840 !important;
+}
+
+.botui-message-content.loading {
+  background-color: rgba(206, 206, 206, 0.5);
+  line-height: 1.3;
+  text-align: center;
+}
+
+.botui-message-content.embed {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.botui-actions-buttons-button,
+.botui-actions-text-input {
+  border: 0;
+  font-family: avenir, sans-serif;
+}
+
+.botui-message-content-link {
+  color: #919292;
+}
+
+.botui-actions-text-input {
+  outline: 0;
+  border-radius: 0;
+  padding: 5px 7px;
+  background-color: transparent;
+  color: #595a5a;
+  border-bottom: 1px solid #919292;
+}
+
+.botui-actions-text-div {
+  font-family: avenir, sans-serif !important;
+  outline: 0;
+  border-radius: 0;
+  padding: 5px 7px;
+  background-color: white;
+  color: #2276e3;
+  font-size: 13px;
+  font-weight: bold;
+  border-bottom: 1px solid #919292;
+}
+
+.botui-actions-text-submit {
+  color: rgb(36, 40, 51);
+  height: 30px;
+  line-height: 1;
+  border-radius: 2px;
+  outline: none;
+  background: #fff;
+  border: none;
+  padding: 5px 14px;
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+  align-items: center;
+  margin-top: 10px;
+  width: 50px;
+}
+
+.botui-actions-buttons-button {
+  color: #fff;
+  line-height: 1;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 7px 15px;
+  border-radius: 4px;
+  background: #393840;
+ 
+}
+
+.botui-actions-text-searchselect,
+.botui-actions-text-select {
+  border: 0;
+  outline: 0;
+  border-radius: 0;
+  padding: 5px 7px;
+  font-family: avenir, sans-serif;
+  background-color: transparent;
+  color: #595a5a;
+  border-bottom: 1px solid #919292;
+}
+
+.botui-actions-text-searchselect .dropdown-toggle {
+  border: none !important;
+}
+.dropdown-menu {
+  max-height: 600px !important;
+}
+
+.botui-actions-text-searchselect .selected-tag {
+  background-color: transparent !important;
+  border: 0 !important;
+}
+
+.slide-fade-enter-active {
+  transition: all 0.3s ease;
+}
+
+.slide-fade-enter,
+.slide-fade-leave-to {
+  opacity: 0;
+  transform: translateX(-10px);
+}
+
+.dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  background-color: #919292;
+}
+
+.dot:nth-last-child(1) {
+  margin-left: 0.3rem;
+  animation: loading 0.6s 0.3s linear infinite;
+}
+
+.dot:nth-last-child(2) {
+  margin-left: 0.3rem;
+  animation: loading 0.6s 0.2s linear infinite;
+}
+
+.dot:nth-last-child(3) {
+  animation: loading 0.6s 0.1s linear infinite;
+}
+
+@keyframes loading {
+  0%,
+  50% {
+    transform: translate(0, 0);
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  25% {
+    transform: translate(0, -3px);
+  }
+  75% {
+    transform: translate(0, 3px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+#my-botui-app {
+  min-height: 100vh;
+  background-color: #f0f1ec;
+}
+
+.container {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.botui-container {
+  margin: 0 auto;
+  background-color: #f0f1ec;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 15px 20px 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.loader,
+.reset {
+  position: fixed;
+  color: #1e9228;
+}
+
+.botui-message-content,
+.input-container {
+  border-radius: 15px 15px 15px 3px;
+ 
+}
+
+.header .container {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.header h1 {
+  text-align: center;
+  margin: 0 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #02475b;
+}
+.v-select input[type='search'],
+.v-select input[type='search']:focus {
+  font-size: 16px !important;
+}
+
+.fake {
+  pointer-events: none;
+  opacity: 0;
+}
+
+.logo {
+  max-width: 60px;
+}
+.botui-actions-text {
+  display: flex;
+  flex-direction: column;
+}
+.form-control.botui-actions-text {
+  text-align: right;
+}
+
+.botui-message-content {
+  color: #fff;
+  background-color: #652c90;
+  padding: 12px 15px;
+}
+
+.botui-message-content.human {
+  color: #393840;
+  background-color: #fff;
+  border-radius: 15px 15px 3px 15px;
+  position: relative;
+  font-weight: 500;
+  display: block;
+  float: right;
+  padding: 20px;
+}
+
+.botui-loading {
+  margin: 10px 10px;
+  padding: 10px 10px;
+  width: 60px;
+  background-color: #652c90;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.botui-loading .dot,
+.input-container {
+  background-color: #fff;
+}
+
+.botui-actions-text-input {
+  border-bottom: 1px solid #2276e3;
+  width: 100%;
+  color: #02475b;
+  background-color: #fff;
+  border-radius: 4px;
+  height: 40px;
+  font-size: 16px;
+}
+
+.botui-actions-text-input:focus {
+  border-width: 2px;
+}
+
+.input-container {
+  max-width: 75%;
+  margin-left: auto;
+  padding: 20px 13px 13px;
+}
+
+.botui-actions-buttons-button {
+  background: #fff;
+  color: #2276e3;
+  border-radius: 1px;
+  outline: 0;
+}
+
+.botui-actions-buttons-button.active {
+  background: #2276e3;
+  color: #fff;
+  font-weight: 800;
+}
+
+.reset {
+  right: 20px;
+  top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 0;
+  background-color: #fff;
+  font-size: 20px;
+  color: #1e9228;
+  outline: 0;
+}
+
+::placeholder {
+  color: #bed0cc;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #bed0cc;
+}
+
+::-ms-input-placeholder {
+  color: #bed0cc;
+}
+
+.botui-actions-buttons.multiselect .botui-actions-buttons-button.confirm:last-child,
+.botui-actions-buttons.multiselect .botui-actions-buttons-button:last-child,
+.form-control .botui-actions-buttons-button {
+  background-color: #393840;
+  color: #fff;
+}
+
+.botui-actions-buttons-button span {
+  color: #fff;
+}
+
+body.loading {
+  overflow: hidden;
+}
+
+.loader {
+  display: none;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  justify-content: center;
+  align-items: center;
+}
+
+body.loading .loader {
+  display: flex;
+}
+
+.botui-actions-select .botui-actions-buttons-button span {
+  color: #393840;
+}
+
+.spinner {
+  -webkit-animation: rotation 1.35s linear infinite;
+  animation: rotation 1.35s linear infinite;
+  stroke: #fdb713;
+}
+
+.left-logo,
+.right-logo {
+  max-width: 100px;
+}
+
+@-webkit-keyframes rotation {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+}
+
+@keyframes rotation {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+}
+
+.circle {
+  stroke-dasharray: 180;
+  stroke-dashoffset: 0;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  -webkit-animation: turn 1.35s ease-in-out infinite;
+  animation: turn 1.35s ease-in-out infinite;
+}
+
+@-webkit-keyframes turn {
+  0% {
+    stroke-dashoffset: 180;
+  }
+  50% {
+    stroke-dashoffset: 45;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+  100% {
+    stroke-dashoffset: 180;
+    -webkit-transform: rotate(450deg);
+    transform: rotate(450deg);
+  }
+}
+
+@keyframes turn {
+  0% {
+    stroke-dashoffset: 180;
+  }
+  50% {
+    stroke-dashoffset: 45;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+  100% {
+    stroke-dashoffset: 180;
+    -webkit-transform: rotate(450deg);
+    transform: rotate(450deg);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a,
+body,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+input,
+p,
+select,
+span {
+  font-family: avenir, sans-serif !important;
+  font-style: normal !important;
+}
+
+.multi_select button {
+  background-color: #000;
+}
+
+button {
+  font-family: Avenir next !important;
+  font-weight: 600 !important;
+  font-size: 13px !important;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 3px 0px;
+}
+
+img {
+  max-width: 100%;
+}
+
+button[type='submit'] {
+  border-radius: 15px;
+  height: 36px;
+}
+
+/* #2276E3 */
+
+/* 393840 */
+
+.botui-actions-buttons.multiselect .botui-actions-buttons-button:last-child {
+  background-color: #fff;
+  color: #2276e3;
+}
+
+.form-control .botui-actions-buttons-button [type='submit'] {
+  background-color: #393840;
+}
+
+.botui-actions-buttons.multiselect .botui-actions-buttons-button:last-child .confirm {
+  background-color: #393840;
+}
+
+.formOuterWrap {
+  color: white !important;
+}
+
+.radio-toolbar label {
+  display: inline-block;
+  background-color: #ddd;
+  padding: 10px 20px;
+  font-family: sans-serif, Arial;
+  font-size: 16px;
+  border: 2px solid #444;
+  border-radius: 4px;
+}
+
+.radio-toolbar input[type='radio']:checked + label {
+  background-color: #bfb;
+  border-color: #4c4;
+}
+
+.radio-toolbar input[type='radio']:focus + label {
+  border: 2px dashed #444;
+}
+
+.radio-toolbar input[type='radio'] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+#travel {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#social {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#social_when {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#great,
+#gender,
+#profession,
+#submit,
+#well,
+#assessment,
+#symptom_past_travel_social,
+#acknowledgement {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+#travel.selectBtnWrap {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.selectBtnWrap input {
+  display: none;
+}
+
+#social.selectBtnWrap label,
+#social_when.selectBtnWrap label {
+  box-shadow: 0px 2px 3px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  padding: 7px 15px;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #2276e3;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#great.selectBtnWrap label,
+#travel.selectBtnWrap label,
+#gender.selectBtnWrap label,
+#acknowledgement.selectBtnWrap label,
+#submit.selectBtnWrap label,
+#well.selectBtnWrap label,
+#assessment.selectBtnWrap label,
+#symptom_past_travel_social label,
+#profession.selectBtnWrap label {
+  box-shadow: 0px 2px 3px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  padding: 7px 15px;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #2276e3;
+  border-radius: 2px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.nextBtn {
+  cursor: pointer;
+  -webkit-appearance: button;
+  margin-top: 10px;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  background-color: rgb(57, 56, 64) !important;
+  color: #fff !important;
+}
+
+.countrySelectWrap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.countrySelectWrap select {
+  border-bottom: 1px solid rgb(36, 40, 51);
+  border-top: none;
+  border-left: 0;
+  border-right: 0;
+  width: 90%;
+  height: 40px;
+  font-size: 16px;
+  outline: none;
+  background-color: transparent;
+  margin-right: 10px;
+}

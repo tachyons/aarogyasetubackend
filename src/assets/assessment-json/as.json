@@ -1,0 +1,122 @@
+{
+  "dialogue": {
+    "title": "অনুগ্ৰহ কৰি শুদ্ধ উত্তৰ দিব। ",
+    "message": "শুদ্ধ উত্তৰে আপোনাক ভালদৰে সহায় কৰাৰ ক্ষেত্ৰত আমাক সহায় কৰিব। চিকিৎসা আৰু সহকাৰী সেৱাৰ সৈতে জড়িত লোকসকল অতিকৈ গুৰুত্বপূৰ্ণ অথচ পৰিসীমিত। গতিকে, এগৰাকী দায়িত্বশীল নাগৰিকৰ ভূমিকা পালন কৰক।",
+    "cta": "ঠিক আছে"
+  },
+  "start": "ক'ভিড-১৯ৰ বিৰুদ্ধে যুঁজত সাম্প্ৰতিক পৰিস্থিতি আৰু গৱেষণা নিৰীক্ষণ কৰাৰ ক্ষেত্ৰত এই চাৰ্টৰ তথ্য ব্যৱহাৰ কৰা হ'ব।",
+  "gender": {
+    "label": "আপোনাৰ লিংগ ?",
+    "possible_values": [
+      {"key": 1, "value": "Male", "text": "পুৰুষ"},
+      {"key": 2, "value": "Female", "text": "মহিলা"},
+      {"key": 3, "value": "Other", "text": "অন্যান্য"}
+    ]
+  },
+  "age": {"label": "বয়স"},
+  "symptoms": {
+    "label": "তলত দিয়া লক্ষণবোৰ আপোনাৰ লগতো হৈছে নেকি ?",
+    "possible_values": [
+      {"value": "Cough", "key": 1, "text": "কফ্"},
+      {"value": "Fever", "key": 2, "text": "জ্বৰ"},
+      {"value": "Difficulty in Breathing", "key": 3, "text": "শ্বাস-প্ৰশ্বাসত অসুবিধা"},
+      {"value": "None of the Above", "key": 0, "text": "ওপৰৰ এটাও নহয়"}
+    ]
+  },
+  "past": {
+    "label": "তলত দিয়া কোনো ৰোগত আপুনি আক্ৰান্ত নেকি ?",
+    "possible_values": [
+      {"value": "Diabetes", "key": 1, "text": "ডায়েবেটিছ"},
+      {"value": "Hypertension", "key": 2, "text": "উচ্চ ৰক্তচাপ"},
+      {"value": "Lung disease", "text": "হাওঁফাওঁৰ ৰোগ", "key": 3},
+      {"value": "Heart Disease", "key": 4, "text": "হৃদৰোগ"},
+      {"value": "None of the Above", "text": "ওপৰৰ এটাও নহয়", "key": 0}
+    ]
+  },
+  "symptom_past": {
+    "label": "তলত দিয়া কোনো ৰোগত আপুনি আক্ৰান্ত নেকি ?",
+    "possible_values": [
+      {"value": "Diabetes", "key": 1, "text": "ডায়েবেটিছ"},
+      {"value": "Hypertension", "key": 2, "text": "উচ্চ ৰক্তচাপ"},
+      {"value": "Lung disease", "text": "হাওঁফাওঁৰ ৰোগ", "key": 3},
+      {"value": "Heart Disease", "key": 4, "text": "হৃদৰোগ"},
+      {"value": "None of the Above", "text": "ওপৰৰ এটাও নহয়", "key": 0}
+    ]
+  },
+  "travel": {
+    "label": "যোৱা 28-45 দিনত আপুনি বিদেশ ভ্ৰমণ কৰিছিল নেকি ?",
+    "possible_values": [
+      {"value": "Yes", "text": "হয়", "key": 1},
+      {"value": "No", "text": "নহয়", "key": 0}
+    ]
+  },
+  "social": {
+    "label": "তলৰ কোনটো আপোনাৰ ক্ষেত্ৰত প্ৰযোজ্য ?",
+    "possible_values": [
+      {
+        "value": "I have recently interacted or lived with someone who has tested positive for COVID -19",
+        "text": "ক'ভিড-১৯ত আক্ৰান্ত ব্যক্তিৰ সৈতে আপুনি কথা-বতৰা পাতিছিল বা একেলগে থাকিছিল নেকি ?",
+        "key": 1
+      },
+      {
+        "value": "I am a healthcare worker and I examined a COVID-19 confirmed case without protective gear",
+        "text": "মই এগৰাকী স্বাস্থ্যকৰ্মী আৰু মোৰ শৰীৰত ক'ভিড-১৯ ধৰা পৰিছে",
+        "key": 2
+      },
+      {"value": "None of the above", "text": "ওপৰৰ এটাও নহয়", "key": 0}
+    ]
+  },
+  "social_when": {
+    "label": "এই কথা-বতৰা কেতিয়া হৈছিল ?",
+    "possible_values": [
+      {"value": "Less than 5 days ago", "text": "৫ দিনৰ ভিতৰত", "key": 1},
+      {"value": "Greater than 5 days ago", "text": "৫ দিনৰ আগত", "key": 2},
+      {"value": "Greater than 14 days ago", "text": "১৪ দিনৰ আগত", "key": 3}
+    ]
+  },
+  "symptom_past_travel_social": {
+    "label": "তলৰ কোনটো আপোনাৰ ক্ষেত্ৰত প্ৰযোজ্য ?",
+    "possible_values": [
+      {
+        "value": "Traveled internationally in the last 14 days",
+        "text": "যোৱা ১৪ দিনত বিদেশ ভ্ৰমণ",
+        "key": 1
+      },
+      {
+        "value": "Recently interacted or lived or currently live with someone who has tested positive for COVID -19",
+        "text": "ক'ভিড-১৯ত আক্ৰান্ত ব্যক্তিৰ সৈতে আপুনি কথা-বতৰা পাতিছিল অথবা একেলগে থাকিছিল",
+        "key": 2
+      },
+      {"value": "Am a healthcare worker", "text": "এগৰাকী স্বাস্থ্যকৰ্মী", "key": 3},
+      {"value": "None of the Above", "text": "ওপৰৰ এটাও নহয়", "key": 0}
+    ]
+  },
+  "great": {
+    "label": "<p>আপোনাৰ সংক্ৰমণৰ সম্ভাৱনা কম। ক'ভিড-১৯ প্ৰতিৰোধৰ বাবে আপুনি ঘৰতে থাকক। যদিহে আপুনি কোনো ক'ভিড-১৯<br><br></p><p>আক্ৰান্ত ৰোগীৰ সংস্পৰ্শলৈ আহে অথবা আপোনাৰ শৰীৰত কোনো লক্ষণ পৰিলক্ষিত হয়, তেন্তে Self Assessment Test আৰু এবাৰ কৰক।</p><br/><p>অধিক তথ্যৰ বাবে চাওক- <a target='_blank' href='https://www.mohfw.gov.in/'>https://www.mohfw.gov.in/</a></p>"
+  },
+  "unwell": {
+    "label": "<p>যদিহে আপুনি অসুস্থ, এই সময়ত চিকিৎসালয়লৈ যোৱাতকৈ ফোন বা ভিডিঅ'যোগে চিকিৎসকৰ পৰামৰ্শ লওক আৰু ঘৰতে সুৰক্ষিত থাকক।</p><p></p><br><br><p>অধিক তথ্যৰ বাবে চাওক-<a target='_blank' href='https://www.mohfw.gov.in/'>https://www.mohfw.gov.in/</a></p>"
+  },
+  "not_eligible": {
+    "label": "<p>আপোনাৰ সংক্ৰমণৰ কিছু সম্ভাৱনা আছে।</p><p></p><p><br><br>ক'ভিড-১৯ প্ৰতিৰোধৰ বাবে আপুনি ঘৰতে থাকক। যদিহে আপুনি কোনো ক'ভিড-১৯ আক্ৰান্ত ৰোগীৰ সংস্পৰ্শলৈ আহে অথবা আপোনাৰ শৰীৰত কোনো লক্ষণ পৰিলক্ষিত হয়, তেন্তে Self Assessment Test আৰু এবাৰ কৰক।<br><br></p><p></p><p>অধিক তথ্যৰ বাবে চাওক- <a target='_blank' href='https://www.mohfw.gov.in/'>https://www.mohfw.gov.in/</a></p>"
+  },
+  "quarantine": {
+    "label": "<p>আপোনাৰ সংক্ৰমণৰ কিছু সম্ভাৱনা আছে। যদিহে ভ্ৰমণ কৰিছে, তেন্তে তাৰপিছত ১৪ দিনৰ বাবে কোৱাৰেণ্টাইনত থাকক। যদিও আপুনি সুস্থ অনুভৱ কৰে, কিন্তু সংক্ৰমিত হোৱাৰ ২ সপ্তাহৰ পিছতো ক'ভিড-১৯ৰ লক্ষণ দেখা দিব পাৰে। দুসপ্তাহৰ ভিতৰত যদি আপুনি কফ্, জ্বৰ বা শ্বাস-প্ৰশ্বাসৰ ৰোগত ভুগিছে, তেন্তে ১০৭৫ হেল্পলাইন নম্বৰত ফোন কৰি পৰীক্ষণৰ বাবে সহায় লওক।</p><br/><p>হোম কোৱাৰেণ্টাইনত ঘৰতে থাকক আৰু কোনো লোককে সাক্ষাৎ নকৰিব। ঘৰত সকলোৰেপৰা ৬ ফুট দূৰত্ব বজাই ৰখাৰ লগতে নিয়মীয়াকৈ হাত ধুৱক আৰু নিজৰ টাৱেল, চামুচ ইত্যাদি অইনক ব্যৱহাৰ কৰিবলৈ নিদিব।</p><br/><p>হোম কোৱাৰেণ্টাইনৰ নিৰ্দেশনাৰ বাবে চাওক- <a target='_blank' href='https://www.mohfw.gov.in/'>https://www.mohfw.gov.in/</a> আৰু নিজৰ যত্ন লওক।</p>"
+  },
+  "eligible_suspect": {
+    "label": "<p>আপোনাৰ সংক্ৰমণৰ কিছু সম্ভাৱনা আছে। ক'ভিড-১৯ত আক্ৰান্ত ৰোগীৰ সৈতে যদি আপুনি আছিল বা আছে, তেন্তে ততালিকে হোম কোৱাৰেণ্টাইনত থাকক।<br><br></p><p></p><p>যদিও আপুনি সুস্থ অনুভৱ কৰে, কিন্তু সংক্ৰমিত হোৱাৰ ২ সপ্তাহৰ পিছতো ক'ভিড-১৯ৰ লক্ষণ দেখা দিব পাৰে। প্ৰথম ৫ দিনৰপৰা ১৪ দিনৰ ভিতৰতে পৰীক্ষা কৰাওক। </p><p></p><p>পৰীক্ষণ কেন্দ্ৰৰ তালিকা: <a target='_blank' href='https://icmr.nic.in/node/39071'>https://icmr.nic.in/node/39071</a></p><p>হোম কোৱাৰেণ্টাইনত ঘৰতে থাকক আৰু কোনো লোককে সাক্ষাৎ নকৰিব। ঘৰত সকলোৰেপৰা ৬ ফুট দূৰত্ব বজাই ৰখাৰ লগতে নিয়মীয়াকৈ হাত ধুৱক আৰু নিজৰ টাৱেল, চামুচ ইত্যাদি অইনক ব্যৱহাৰ কৰিবলৈ নিদিব।</p><br/><p>হোম কোৱাৰেণ্টাইনৰ নিৰ্দেশনাৰ বাবে চাওক- <a target='_blank' href='https://www.mohfw.gov.in/'>https://www.mohfw.gov.in/</a>আৰু নিজৰ যত্ন লওক।</p>"
+  },
+  "eligible": {
+    "label": "<p>আপোনাৰ সংক্ৰমণৰ সম্ভাৱনা অধিক বাবে শীঘ্ৰে পৰীক্ষা কৰাওক। ইয়াৰ বাবে ১০৭৫ হেল্পলাইন নম্বৰত যোগাযোগ কৰক। <br><br></p><p></p><p> পৰীক্ষণ কেন্দ্ৰৰ তালিকা: <a target='_blank' href='https://icmr.nic.in/node/39071'>https://icmr.nic.in/node/39071</a></p><p></p><p><br><br><p>পৰীক্ষণ আৰু কোৱাৰেণ্টাইনৰ অধিক পৰামৰ্শৰ বাবে চাওক- <a target='_blank' href='https://www.mohfw.gov.in/'>https://www.mohfw.gov.in/</a></p>"
+  },
+  "eligible_travel": {
+    "label": "<p>আপোনাৰ সংক্ৰমণৰ সম্ভাৱনা অধিক বাবে শীঘ্ৰে পৰীক্ষা কৰাওক। ইয়াৰ বাবে ১০৭৫ হেল্পলাইন নম্বৰত যোগাযোগ কৰক। <br><br></p><p></p><p> পৰীক্ষণ কেন্দ্ৰৰ তালিকা: <a target='_blank' href='https://icmr.nic.in/node/39071'>https://icmr.nic.in/node/39071</a></p><p></p><p><br><br><p>পৰীক্ষণ আৰু কোৱাৰেণ্টাইনৰ অধিক পৰামৰ্শৰ বাবে চাওক- <a target='_blank' href='https://www.mohfw.gov.in/'>https://www.mohfw.gov.in/</a></p>"
+  },
+  "confirm": {
+    "label": "<p>Thank you for taking this assessment.</p><br><br><p>If the information provided by you is accurate, it indicates that you are either unwell or at risk. Your test results and location history need to be sent to the Health Ministry to help you and help identify potential hotspots where infection may be spreading.</p>",
+    "possible_values": [
+      {"value": "Confirm and Proceed", "text": "Confirm and Proceed", "key": 1},
+      {"value": "I will do it later", "text": "I will do it later", "key": 2}
+    ]
+  }
+}

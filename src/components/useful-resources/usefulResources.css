@@ -1,0 +1,254 @@
+.useful-resource {
+  display: flex;
+  padding: 20px 16px;
+  background-color: white;
+  margin: 10px 0;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.useful-resource-title {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: bold;
+  width: 100%;
+  text-transform: capitalize;
+  color: rgb(36, 40, 51);
+}
+
+.imgCardMitra {
+  margin-top: 20px;
+  width: 100%;
+  background-color: rgb(234, 245, 255);
+  position: relative;
+  display: flex;
+  border-radius: 8px;
+  justify-content: space-between;
+}
+
+.card-image-mitra {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card-info-mitra {
+  width: 60%;
+  display: flex;
+  border-radius: 8px;
+  flex-direction: column;
+  padding: 20px 0px 20px 15px;
+  position: relative;
+  justify-content: space-between;
+}
+
+.card-info-title-mitra {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(70, 128, 193);
+  font-weight: bold;
+  line-height: 16pt;
+  font-size: 16px;
+}
+.normal {
+  font-weight: 200;
+  color: rgb(70, 128, 193);
+}
+
+.card-info-link-img-mitra {
+  margin-left: 4px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 19px;
+}
+
+.card-info-description-mitra {
+  color: rgb(36, 40, 51);
+  font-weight: 400;
+  margin-top: 4px;
+  line-height: 14pt;
+  font-size: 12px;
+  align-items: flex-end;
+  padding-top: 10px;
+}
+
+.redirection-popup {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.redirection-popup-content {
+  position: relative;
+  width: 100%;
+  background-color: white;
+  padding: 20px 30px 8px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.redirection-popup-close {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  padding: 12px;
+  top: 0;
+  right: 0;
+}
+.redirection-popup-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(36, 40, 51);
+}
+
+.redirection-popup-message {
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 32px;
+  text-align: center;
+  color: rgb(36, 40, 51);
+}
+
+.redirection-popup-btn-primary {
+  height: 50px;
+  line-height: 50px;
+  border-radius: 25px;
+  padding: 0 22px;
+  color: white;
+  background-color: rgb(240, 99, 114);
+  font-weight: 600;
+}
+
+.redirection-popup-btn-secondary {
+  height: 50px;
+  line-height: 50px;
+  border-radius: 25px;
+  margin-top: 8px;
+  padding: 0 22px;
+  color: rgb(240, 99, 114);
+  font-weight: 600;
+}
+
+.cardImgWrap {
+  width: 40%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.mitraImg {
+  width: 135px;
+  height: 118px;
+  border-radius: 8px;
+}
+
+.faqBannerWrap {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  background-color: rgb(240, 242, 223);
+  border-radius: 8px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.faqBannerInfoWrap {
+  width: 60%;
+  display: flex;
+  padding: 20px 0px 20px 15px;
+  flex-direction: column;
+}
+.faqBannerText {
+  font-size: 14px;
+  color: rgb(36, 40, 51);
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.faqBannerLink {
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(0, 140, 255);
+  padding-top: 32px;
+}
+.icmrWrap {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  background-color: rgb(223, 233, 245);
+  border-radius: 8px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.icmrInfoWrap {
+  width: 60%;
+  display: flex;
+  padding: 20px 0px 20px 15px;
+  flex-direction: column;
+}
+.icmrText {
+  font-size: 14px;
+  color: rgb(36, 40, 51);
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.icmrLink {
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(0, 140, 255);
+  padding-top: 32px;
+}
+.rightArrrowFaq {
+  margin-left: 4px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 17px;
+}
+
+.hospitalWrap {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  background-color: rgb(223, 233, 245);
+  border-radius: 8px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.hospitalInfoWrap {
+  width: 60%;
+  display: flex;
+  padding: 20px 0px 20px 15px;
+  flex-direction: column;
+}
+.hospitalText {
+  font-size: 14px;
+  color: rgb(36, 40, 51);
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.hospitalLink {
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(0, 140, 255);
+  padding-top: 32px;
+}

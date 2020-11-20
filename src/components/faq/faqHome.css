@@ -1,0 +1,77 @@
+.faqBlockOuterWrapNew {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+  padding: 20px 0px 20px 15px;
+  background-color: #fff;
+}
+.faqHeadTextWrap {
+  width: 100%;
+  display: flex;
+  padding-left: 5px;
+  padding-bottom: 20px;
+}
+.faqHeadTextNew {
+  font-size: 16px;
+  color: rgb(36, 40, 51);
+  font-weight: bold;
+}
+.faqTabOuterWrap {
+  width: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+.faqTabInnerWrap {
+  width: 530px;
+  display: flex;
+  align-items: center;
+}
+.faqTabWrap {
+  width: 150px;
+  display: flex;
+  box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.2);
+  height: 150px;
+  border-radius: 8px;
+  padding: 10px 10px 20px 10px;
+  margin: 10px 5px;
+  flex-direction: column;
+  position: relative;
+  justify-content: space-between;
+}
+.purpleBack {
+  background-color: rgb(251, 238, 255);
+}
+.pinkBack {
+  background-color: rgb(254, 239, 241);
+}
+.faqImages {
+  width: 32px;
+  height: 32px;
+  display: flex;
+}
+.faqText {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  padding-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* after 5 line show ... */
+  -webkit-box-orient: vertical;
+}
+.purpleText {
+  color: rgb(137, 23, 170);
+}
+.pinkText {
+  color: rgb(240, 99, 114);
+}
+.rightLongArrowWrap {
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  top: 90%;
+  right: 10px;
+}

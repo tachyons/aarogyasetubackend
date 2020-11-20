@@ -1,0 +1,246 @@
+.faqDetailOuterWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+}
+
+.faqHeaderWrap {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 15px 20px;
+  background-color: #fff;
+  z-index: 2;
+  border-bottom: 1px solid rgb(233, 233, 233);
+  position: fixed;
+  top: 0px;
+  left: 0;
+  height: 50px;
+}
+
+.backIconWrap {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.backIconWrap img {
+  width: 15px;
+  height: 15px;
+}
+
+.headerTextWrap {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headerTextFaqDetail {
+  font-size: 16px;
+  color: rgb(36, 40, 51);
+  font-weight: 600;
+}
+
+.faqDetailInfoWrap {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex: 1;
+  overflow-y: scroll;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.faqNavOuterWrap {
+  width: 100%;
+  margin-top: 20px;
+  padding: 0 12px;
+  min-height: 48px;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+.faqNavOuterWrap div {
+  display: flex;
+  height: 30px;
+  line-height: 30px;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  margin-right: 10px;
+  background-color: #fff;
+  padding: 0 15px;
+  align-items: center;
+  white-space: nowrap;
+}
+.faqNavOuterWrap div {
+  font-size: 12px;
+  color: rgb(57, 56, 65);
+  font-weight: 600;
+}
+
+.faqNavOuterWrap div.active {
+  background-color: rgb(36, 40, 51);
+  color: #fff;
+}
+
+.faqDetailInnerBlock {
+  width: 100%;
+  display: flex;
+  overflow-y: scroll;
+  flex-direction: column;
+  padding: 10px 15px 30px;
+}
+
+.sectionHeadTextWrap {
+  width: 100%;
+  padding-bottom: 20px;
+}
+.sectionHeadText {
+  font-size: 16px;
+  color: rgb(36, 40, 51);
+  font-weight: bold;
+}
+
+.faqDetailBlock {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 0.5px solid rgba(151, 151, 151, 0.3);
+}
+
+.tabsDetail input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.tabsDetail {
+  
+  overflow: hidden;
+  padding: 20px 0;
+  
+}
+
+.tabDetail {
+  width: 100%;
+  color: white;
+  overflow: hidden;
+}
+.tabDetail a {
+  display: contents;
+  text-decoration: underline;
+}
+
+.tabDetail.tabDetail-label {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+
+  font-weight: bold;
+  cursor: pointer;
+ 
+}
+
+.tabDetail .tabDetail-label::after {
+  content: '\276F';
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all 0.35s;
+}
+
+.tabDetail-content {
+  max-height: 0;
+  padding: 0;
+  background: white;
+  transition: all 0.35s;
+}
+
+.tab-close {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+  font-size: 0.75em;
+  cursor: pointer;
+ 
+}
+
+input:checked + .tabDetail-label::after {
+  transform: rotate(90deg);
+}
+
+input:checked ~ .tabDetail-content {
+  max-height: 100vh;
+  padding-bottom: 15px;
+}
+
+.faqDetailQuestionText {
+  width: 100%;
+  display: flex;
+  font-size: 14px;
+  color: rgba(57, 56, 65);
+  font-weight: 500;
+  line-height: 1.3;
+  padding: 20px 0;
+}
+.faqDetailQuestionText span {
+  padding-right: 15px;
+  width: 95%;
+}
+
+.faqDetailAnswerWrap {
+  width: 100%;
+  display: flex;
+  font-size: 14px;
+  color: rgb(57, 56, 66);
+  line-height: 1.3;
+}
+
+.faq-placeholder {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+.faq-placeholder-block {
+  display: flex;
+  height: 20px;
+  border-radius: 10px;
+  margin: 12px;
+}
+
+.faq-placeholder-block-second {
+  width: 66%;
+}
+.faq-placeholder-block-third {
+  width: 33%;
+}
+
+.faq-error-block {
+  display: flex;
+  display: -webkit-flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.faq-error-msg {
+  color: #242833;
+  padding: 12px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.faq-error-cta {
+  height: 44px;
+  line-height: 44px;
+  border-radius: 22px;
+  border: 1px solid #242833;
+  padding: 0 16px;
+  font-weight: 500;
+}

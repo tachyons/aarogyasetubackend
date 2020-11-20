@@ -1,0 +1,154 @@
+{
+  "general": {
+    "display_title": "General",
+    "q_a": [
+      {
+        "q": "What is Aarogya Setu?",
+        "a": "Aarogya Setu is a digital service, primarily a mobile application, developed by the Government of India, and is aimed at connecting COVID-19 related health services with the people of India. It is designed to augment the initiatives of the Government of India by informing the people of their potential risk of COVID-19 infection and the best practices to be followed to stay healthy, as well as providing them relevant and curated medical advisories pertaining to the COVID-19 pandemic."
+      },
+      {
+        "q": "Why should I use Aarogya Setu?",
+        "a": "Aarogya Setu is our common bridge to prevent the spread of the coronavirus pandemic in India. Aarogya Setu uses contact tracing to record details of all the people you may have come in contact with as you go about your normal activities so that if one of them, at a later point in time, tests positive for COVID-19, you can be informed and proactive medical intervention be arranged for you.<br/><br/>In order to break the chain of infection, it is important to provide medical help and advisory to people who may potentially be at risk, especially asymptomatic people i.e. people who may have contracted the infection but haven’t shown the symptoms yet. Aarogya Setu enables early identification and prevention of potential risk of infection, through contact tracing, and thus acts as a shield for you, your family and your community.In addition, when you take the self-assessment test on the Aarogya Setu app, by co-relating the symptoms that you report with your location information, theGovernment of India will have the ability to identify hotspots where disease may be spreading early enough to be able to prevent it from spreading too far."
+      },
+      {
+        "q": "How do I get started with Aarogya Setu?",
+        "a": "In order to use the Aarogya Setu on your smartphone, you will need to download Aarogya Setu from the PlayStore (for Android devices) or the AppStore (for iOS devices). Alternatively, you can download the App from the following link: <a href='https://web.swaraksha.gov.in/in/'>https://web.swaraksha.gov.in/in/</a> <br/><br/>A version of the App for Jio phones (KaiOS) will be available for download soon.<br/><br/> Once you have installed the App, it will guide you through the onboarding process to register yourself. Users are requested to switch on their Bluetooth and set their location sharing to “Always” to ensure that Aarogya Setu works for your and your community’s benefit. For screen-by-screen demo, you may refer to this <a href='https://www.youtube.com/watch?v=7JbMJD_5SDk'>video</a>."
+      },
+      {
+        "q": "What are the key features of Aarogya Setu?",
+        "a": "The key features of Aarogya Setu include:<br> - Automatic contact tracing using Bluetooth<br> - Self-Assessment test based on ICMR guidelines<br> - Updates, advisory and best practices related to COVID-19<br> - Integration of e-Pass<br> - Telemedicine and video consultation facilities (coming soon)"
+      },
+      {
+        "q": "How does contact tracing work on Aarogya Setu?",
+        "a": "The Aarogya Setu app on your phone detects other devices that have the Aarogya Setu app installed on them when they come within the Bluetooth proximity of your phone. When this happens, both the phones securely exchange a digital signature of this interaction, including time, proximity, location and duration. In the unfortunate event that any of the people that you came in contact with in last 14 days tests positive for COVID-19, the App calculates your risk of infection based on recency and proximity of your interaction and recommends suitable action, that will be displayed on your Home screen. Your updated risk of infection is analyzed by Government of India, to facilitate suitable medical interventions, as required."
+      },
+      {
+        "q": "How does the self-assessment test on the Aarogya Setu app work?",
+        "a": "The self-assessment test, based on ICMR guidelines, evaluates the likelihood of COVID-19 infection based on your self-reported symptoms and other relevant information like recent travel, age and gender. This evaluation takes place on the App and the results are communicated to you immediately in terms of green, yellow or orange colors, indicating progressively higher probabilities of infection. If, based on your self-reported information, there is a probability that you might be infected, the App will ask for your consent to upload and share the results of your self-assessment so that the Government of India can take appropriate medical and administrative measures."
+      },
+      {
+        "q": "How does Aarogya Setu calculate my risk of infection?",
+        "a": "Each time you come in contact with an Aarogya Setu user, your app records digital signature of this interaction, including time, proximity, location and duration. If, at a later point in time, any of the people you came in contact with tests positive for COVID-19, Aarogya Setu calculates your risk of infection for COVID-19 based on the recency and proximity of your interaction with such person and communicates this risk of infection to you through a notification and by updating the Home Screen, if needed. This probability is constantly refined based on subsequent contacts. Your updated risk of infection is analyzed by Government of India, to facilitate suitable medical interventions, as required."
+      },
+      {
+        "q": "What do the various colors of the Home screen on Aarogya Setu app signify?",
+        "a": "The Home Screen has four classifications signifying increasing risk of infection: Green, Yellow, Orange and Red.<br> - Green: The Green classification on your screen signifies that your risk of infection is low: either you haven’t met anyone who has been tested COVID-19 positive OR you haven’t declared any symptoms and conditions related to COVID-19 during Self-Assessment or both.<br> - Yellow: The Yellow classification on your screen signifies moderate risk of infection: <br>&nbsp; • you haven’t met anyone who has been tested COVID-19 positive OR <br>&nbsp; • you may have met someone who has been tested COVID-19 positive but your interaction was limited and socially distant OR <br/>&nbsp; • you have indicated one of the conditions related to COVID-19 during Self-Assessment. <br> - Orange: The Orange classification on your screen signifies high risk of infection:<br/>&nbsp; • you have recently met someone who has been tested COVID-19positive OR <br/>&nbsp; • you have indicated either symptoms and / or conditions related to COVID-19 during Self-Assessment.<br> - Red: The Red classification on your screen signifies you have been tested COVID-19 positive."
+      },
+      {
+        "q": "How does Aarogya Setu know if someone has turned COVID-19 positive?",
+        "a": "Aarogya Setu currently does not allow users to mark themselves as COVID-19 positive. When someone is tested COVID-19 positive, the testing lab shares this information with Indian Council of Medical Research (ICMR) – the nodal government agency for COVID-19 testing. ICMR, through a secure Application Program Interface (API), shares the list of COVID-19 positive persons to the Aarogya Setu server. If the person tested COVID-19 positive has Aarogya Setu app installed, the serve then updates the app status and runs contact tracing for this person."
+      },
+      {
+        "q": "If my neighbor tests positive for COVID-19, will the fact that my app has connected with his on Bluetooth mean that I am marked as positive for COVID-19 even if I have remained indoors and never come in physical contact with him?",
+        "a": "Aarogya Setu only calculates the possible risk of infection based on your interaction with someone who is later tested COVID-19 positive. Aarogya Setu only marks someone COVID-19 positive when this information has been received from ICMR.<br/>If your app has connected with your neighbor’s app through Bluetooth, and your neighbor tests positive for COVID-19, Aarogya Setu will analyse this Bluetooth interaction. A neighbor testing positive puts you at risk if you have come in direct contact with your neighbor i.e. within the social distance (usually 6 feet or less) for a significant period of time. If the two of you haven’t\nbeen in physical contact and you have remained indoors, it is unlikely that your risk of infection will be high.<br/>Even if you have been marked high risk, the health authorities will assess your situation and take into consideration the fact that you have remained indoors without any physical contact with your neighbor before specifying any course of action. If you have any queries or clarifications, you can call the Helpline numbers given on your app’s Home screen."
+      },
+      {
+        "q": "What do the various numbers on the Aarogya Setu Home screen signify?",
+        "a": "The Aarogya Setu Home screen shows four statistics for your location (note: this is the live location of your phone):<br> &nbsp; • Number of users within 1km of your location who have taken the self-assessment test<br> &nbsp; • Number of users within 1km of your location who have indicated one ormore of the three symptoms for COVID-19<br> &nbsp; • Number of users within 1km of your location who have been tested COVID-19 positive<br> &nbsp; • Number of users within 1km of your location who have been come in direct contact with someone has been tested COVID-19 positive"
+      },
+      {
+        "q": "Is Aarogya Setu available in multiple languages?",
+        "a": "Aarogya Setu is currently available in twelve languages: English, Hindi, Gujarati, Punjabi, Telugu, Odia, Marathi, Bengali, Kannada, Tamil and Malayalam and Assamese. The App will soon be made available in all 22 scheduled languages of India."
+      },
+      {
+        "q": "Where can I read the Terms of Service and Privacy Policy of Aarogya Setu?",
+        "a": "The Terms of Service are accessible from this <a href='https://web.swaraksha.gov.in/ncv19/tnc/'>link</a> and the Privacy Policy is accessible from this <a href='https://web.swaraksha.gov.in/ncv19/privacy/'>link</a>."
+      },
+      {
+        "q": "How do I share feedback and suggestions for Aarogya Setu?",
+        "a": "You can leave a comment on the PlayStore / AppStore. You can also send us an email at: <a href='mailto:support.aarogyasetu@gov.in'>support.aarogyasetu@gov.in</a>. Team Aarogya Setu is committed to reviewing and responding to your queries as soon as possible."
+      }
+    ]
+  },
+  "privacy": {
+    "display_title": "Privacy",
+    "q_a": [
+      {
+        "icon": "/assets/faq/ic_personal_info.svg",
+        "q": "What personal information does Aarogya Setu collect from users?",
+        "q_short": "What personal info. does this app collect from users?",
+        "a": "To register for the App, you are needed to provide your mobile number. In addition, you are also asked for your name, gender, age, profession, countries visited in last 30 days and willingness to volunteer in times of need. This information is encrypted and stored on the Aarogya Setu server.<br/><br/>When you take the optional Self-Assessment Test, the App collects your response to the Test and records your location. This information is encrypted and stored on the Aarogya Setu server.When your smartphone on which the App is active with mobile, Bluetooth and GPS services turned on, comes within range of another such mobile or handheld device, the App collects from such other device the anonymized Device ID of the other user and details of the interaction (time, duration, distance and location). This information is encrypted and stored on your device."
+      },
+      {
+        "icon": "/assets/faq/ic_anonymize.svg",
+        "q": "How does Aarogya Setu anonymize your personal information?",
+        "q_short": "How does this app anonymize your personal info.?",
+        "a": "When you provide your mobile number at registration, the Aarogya Setu server assigns an anonymous, randomized unique device identity number (DiD) and associates it with your mobile number. This pair – the mobile number and DiD – is securely stored in a highly encrypted server. Other personal information that you have provided at the time of registration is also paired with DiD assigned to your device, and is securely encrypted and stored on the server.</br></br>All future interactions between two devices with Aarogya Setu app installed, and between the device and the Aarogya Setu server is done using DiD only. No personal information is used for any future communication or transaction.<br> - The personal information provided at the time of registration is paired with DiD assigned to your device, and is securely encrypted and stored on the server. <br> - The exchange of information between two devices for Bluetooth contact tracing is done using DiD only and is encrypted stored on the device.<br> - The results of the Self-Assessment test and the location is paired with DiD assigned to your device, and is securely encrypted and stored on the server. <br> - All communications from the Aarogya Setu server, including notifications and update of risk of infection is done using DiD only.<br/><br/>It is only when you test positive for COVID-19 or have a high likelihood of risk of infection, your DiD is re-identified with your personal information to administer necessary medical intervention for you."
+      },
+      {
+        "icon": "/assets/faq/privacy.svg",
+        "q": "What are the privacy features built into Aarogya Setu?",
+        "q_short": "What are the privacy features built into this app?",
+        "a": "Contact tracing is a potentially privacy invasive technology solution unless appropriate care is taken. Aarogya Setu has endeavored to have “privacy-first by design” as a key principle. Given that this technology can help curtail the spread of the COVID-19 pandemic, its use is justified under the current circumstances. Nevertheless, keeping in mind the privacy concerns that such a technology raises, every effort has been taken to enhance the privacy features of Aarogya Setu.<br/><br/>There are four key ways in which Aarogya Setu protects the privacy of its users: <br/>&nbsp;a.&nbsp; Personal information you provide at registration is immediately anonymized and all subsequent transaction are related to a specific Device Identification Number (DiD) that is assigned to you by the Aarogya Setu server. <br/>&nbsp;b.&nbsp;By default, all contact tracing and location information that is collected is stored locally on your mobile device. This information is only uploaded to the Aarogya Setu server if you have tested positive for COVID-19.<br/>&nbsp;c.&nbsp;All contact tracing and location information stored on the mobile device and not uploaded to the Aarogya Setu servers is permanently deleted from the phone on a rolling 30 day cycle. All your contact tracing and location information that might have been uploaded to the Aarogya Setu server is permanently deleted 45 days from the date of upload if you have not tested positive for COVID-19 within that period of time. If you are infected, all contact tracing and location information pertaining to you is permanently deleted from the server 60 days after you are declared cured of COVID-19.<br/>&nbsp;d.&nbsp;Further, the privacy policy explicitly limits the purposes for which this data will be used i.e. only for assisting you and generating insights to help the Government of India battle COVID-19.<br/><br/>These feature implement anonymization, data minimization, purpose and use limitation and data retention principles in accordance with widely accepted privacy principles and represent a reasonable restriction on the personal privacy of Aarogya Setu users."
+      },
+      {
+        "icon": "/assets/faq/ic_secure.svg",
+        "q": "How does Aarogya Setu secure your information?",
+        "q_short": "How does this app secure your info.?",
+        "a": "All information stored on your mobile device is Advanced Encryption Standard(AES) protected. All the data stored on the device is AES encrypted using the key chains of the operating system:  KeyStore for Android and KeyChain for iOS.<br/><br/>All the data transmission from the device to server and back is anonymised, RSA protected and transmitted securely. Every single request from the app to the server is authenticated. The backend data storage at rest is encrypted using AWS tools and global best practices.<br/><br/>The Aarogya Setu team has done end-to-end testing of the system from reputed academic institutions, tech audit firms and multiple ethical hacker groups for security vulnerabilities. The team does security audit before every release, as a practice."
+      },
+      {
+        "icon": "/assets/faq/ic_location.svg",
+        "q": "If GPS information is not required for contact tracing (the Singapore TraceTogether app does not collect GPS information) why does Aarogya Setu collect GPS information?",
+        "q_short": "Why does this app collect GPS info.?",
+        "a": "Unlike TraceTogether and the various other apps like that, Aarogya Setu is more than just a contact tracing app. In a country with the population density of India’s, the Government of India believes it is necessary to not only identify users who have come in contact with each other but also to trace the paths that infected persons have walked in order to be able to sanitise areas potentially infected with the disease and identify persons in those areas who might have been infected even though they have not been identified as contacts on the Aarogya Setu app.<br/><br/>In addition, when you take the self-assessment test on the Aarogya Setu app, by co-relating the symptoms that you report with your location information, theGovernment of India will have the ability to identify hotspots where disease may be spreading early enough to be able to prevent it from spreading too far.<br/><br/>It is for these reasons that Aarogya Setu collects GPS information."
+      },
+      {
+        "icon": "/assets/faq/ic_personal_info_time.svg",
+        "q": "How long is the information stored on my mobile phone?",
+        "q_short": "How long is the info. stored on my mobile phone?",
+        "a": "Contact and location information of all unique interactions are stored on your mobile phone and, if it has not been uploaded to the cloud within 30 days of being collected, is permanently deleted."
+      },
+      {
+        "icon": "/assets/faq/ic_server.svg",
+        "q": "If the contact and location information stored on my phone is uploaded to the Aarogya Setu server, for how long is it stored on the server?",
+        "q_short": "How long is the info. stored on the server?",
+        "a": "If your contact and location information has been uploaded to the Aarogya Setu server and even after 45 days from the date on which it was uploaded you have not tested positive for COVID-19, the data is permanently deleted from the Aarogya Setu server.<br/><br/>If your contact and location information has been uploaded to the Aarogya Setu server and you have tested positive for COVID-19, then the data is permanently deleted from the Aarogya Setu server 60 days after you have been declared cured of COVID-19."
+      },
+      {
+        "icon": "/assets/faq/ic_infected.svg",
+        "q": "If I test positive for COVID-19, will Aarogya Setu inform other users of the App that I have tested positive?",
+        "q_short": "If I test positive, will the app inform it to other users?",
+        "a": "Aarogya Setu WILL NOT reveal your personal identity or your medical condition to any other user of the App or to the public at large. The Government of India may, for the purpose of implementing suitable medical and administrative interventions, contact persons you have come in contact with but will not inform them of your condition. Your information is safe with us."
+      }
+    ]
+  },
+  "troubleshooting": {
+    "display_title": "Troubleshooting",
+    "q_a": [
+      {
+        "q": "While installing the App, I am receiving a message that my device is rooted and I can’t proceed any further. What do I do now?",
+        "a": "Aarogya Setu cannot be installed on rooted/ jailbroken phones as they pose security vulnerability and may compromise the security and privacy features of the App.<br/><br/>If your device is not rooted, and you are still getting this message, please delete the App, restart your phone and then download and re-install the latest version of the App from PlayStore / AppStore. If the issue persists, please send us an email at support.aarogyasetu@gov.in with the model of your mobile phone and the version of the operating system it us running."
+      },
+      {
+        "q": "When I am trying to download Aarogya Setu from AppStore / PlayStore,  I get the message: “this app is not available in your country”. I am currently in India.How do I resolve this?",
+        "a": "Aarogya Setu is available only for use in India. Please check and change your country settings if you are unable to download the App while you are in India.<br/><br/>For iOS devices, the country setting can be changed by visiting Setting > iTunes & App Stores > clicking on Apple Id highlighted in blue > View Apple Id > Country and Region > Change Country or Region.<br/><br/>For Android devices, open Google Play Store, tap Menu > Account > Country and Profiles."
+      }
+    ]
+  },
+  "technical": {
+    "display_title": "Technical",
+    "q_a": [
+      {
+        "q": "Why am I requested to keep my Bluetooth switched at all times?",
+        "a": "Aarogya Setu relies on Bluetooth technology to identify instances of your interactions with other devices that have the App installed. Currently, Bluetooth provides most accurate measure of your close proximity with other devices. If you keep it switched on it will be able to collect those you come in contact with at all times."
+      },
+      {
+        "q": "If I keep my Bluetooth switched on at all times, will it not drain the battery of my mobile phone?",
+        "a": "The Aarogya Setu app uses Bluetooth Low Energy, a variant that has negligible battery drain. In addition we are continuously working on improving device efficiency and will roll out these features in future updates."
+      },
+      {
+        "q": "Why am I requested to keep set my location sharing to “Always”? Is my location being continuously monitored?",
+        "a": "You need to keep your location sharing set to “Always” for the following specific reasons:\na.\tTo pinpoint the locations where you may have come in contact with persons who have tested positive for COVID-19; \nb.\tTo allow the Government of India to implement appropriate and necessary medical and administrative interventions at various specific locations in India based on information as to where epidemic hotspots are developing.\nAll location information whether stored on your device or uploaded to the Aarogya Setu server is associated with your Device ID and not your personal information."
+      },
+      {
+        "q": "Which operating systems does Aarogya Setu support?",
+        "a": "Aarogya Setu is available for both iOS and Android users. Aarogya Setu currently supports Android 5.0 and above, and iOS 10.3 and above. A version of the App for KaiOS will be made available soon."
+      },
+      {
+        "q": "Since the Device ID is static and never changes would this not pose a security vulnerability?",
+        "a": "Given the current volumes of persons who have tested positive for COVID-19 the Government of India believes that the use of a static Device ID is not an immediate concern. That said, there is an awareness that having a static Device ID will be a concern at scale. The Government of India is working to address this and is evaluating rolling out a mechanism for dynamic Device Ids for a user with limited lifetimes generated in runtime."
+      }
+    ]
+  }
+}

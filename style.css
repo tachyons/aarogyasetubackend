@@ -1,0 +1,232 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+  color: #242833;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+}
+
+.covidupdateOuterWrapper {
+  width: 100%;
+  display: flex;
+  background-color: rgb(247, 247, 249);
+  flex-direction: column;
+  padding-top: 120px;
+}
+
+.ico12 {
+  font-size: 12px;
+}
+
+.padL5 {
+  padding-left: 5px;
+}
+
+.padT2 {
+  padding-top: 2px;
+}
+
+.padT5 {
+  padding-top: 5px;
+}
+
+.fb {
+  font-weight: 600;
+}
+
+.blackClr {
+  color: rgb(36, 40, 51);
+}
+
+.padR7 {
+  padding-right: 7px;
+}
+
+.fmed {
+  font-weight: 500;
+}
+
+.dn {
+  display: none !important;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.healthCheckWrapper {
+  width: 100%;
+  background-color: rgb(247, 247, 249);
+  flex-direction: column;
+  z-index: 2;
+}
+
+.popoverlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #000;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 0.4;
+  visibility: visible;
+}
+
+.popcontentWrap {
+  display: flex;
+  background-color: #fff;
+  width: 100%;
+  z-index: 20;
+  bottom: 0;
+  position: fixed;
+  flex-direction: column;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  padding: 12px;
+  left: 0;
+}
+
+.healthcheckupInnerWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.selfAssesIntroImg {
+  width: 275px;
+  height: 140px;
+  margin-bottom: 20px;
+}
+
+.answerTxt p:first-child {
+  font-size: 22px;
+  color: rgb(36, 40, 51);
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.answerTxt p:nth-child(n + 2) {
+  font-size: 16px;
+  color: rgb(36, 40, 51);
+  font-weight: 500;
+  text-align: center;
+}
+.answerTxt {
+  font-size: 22px !important;
+  color: rgb(36, 40, 51);
+  font-weight: bold !important;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.responsibleCitizenWrap {
+  font-size: 16px;
+  color: rgb(36, 40, 51);
+  font-weight: 500;
+  text-align: center;
+}
+
+.recommendtxtWrap {
+  font-size: 16px;
+  color: rgb(36, 40, 51);
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.userguideWrap {
+  font-weight: 600;
+  font-size: 22px;
+  color: rgb(36, 40, 51);
+  padding-bottom: 5px;
+  display: flex;
+  width: 65%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.proceedCtaWrap {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.proceedCtaInnerWrap {
+  display: flex;
+  height: 50px;
+  padding: 14px 25px;
+  justify-content: center;
+  background-color: rgb(57, 56, 64);
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+.proceedtxt {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.laterCtaInnerWrap {
+  display: flex;
+}
+.skipTxt {
+  font-size: 16px;
+  color: rgb(36, 40, 51);
+  padding-bottom: 20px;
+  display: flex;
+  padding-top: 20px;
+  font-weight: 500;
+}
+
+.barWrapper {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.barInnerWrapper {
+  width: 134px;
+  height: 5px;
+  background-color: rgb(211, 215, 224);
+  border-radius: 25px;
+}
+
+.vh {
+  visibility: hidden;
+}
+
+.shimmerLoad {
+  background: #f6f7f8;
+  animation: shimmer 2s infinite;
+  background-image: linear-gradient(to right, #f6f7f8 0%, #edeef1 20%, #f6f7f8 40%, #f6f7f8 100%);
+  background-size: 1000px 100%;
+  border-radius: 2px;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}

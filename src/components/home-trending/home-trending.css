@@ -1,0 +1,82 @@
+.trendingHomeOuterWrap {
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+  padding: 20px 15px;
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+.trendingHomeHeadText {
+  width: 100%;
+  font-size: 16px;
+  color: rgb(36, 40, 51);
+  font-weight: bold;
+  display: flex;
+}
+
+.trendingHomeInnerWrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.bigVideoHomeWrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.videoHomeInfoText {
+  width: 100%;
+  display: block;
+  font-size: 14px;
+  color: rgb(36, 40, 51);
+  font-weight: 600;
+  padding-top: 7px;
+}
+
+.smallVideoHomeOuterWrap {
+  width: 100%;
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-between;
+}
+
+.smallHomeVideoInnerWrap {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+}
+
+.smallHomeVideoInnerWrap img {
+  width: 100%;
+  height: 166px;
+  display: flex;
+}
+
+.smallHomeVideoInnerWrap > p {
+  font-size: 14px;
+  color: rgb(36, 40, 51);
+  font-weight: 600;
+  padding-top: 7px;
+}
+
+.seeAllWrap {
+  width: 100%;
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+}
+
+.seeAllWrap > p {
+  color: rgb(0, 140, 255);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.seeAllWrap img {
+  width: 20px;
+  height: 20px;
+}

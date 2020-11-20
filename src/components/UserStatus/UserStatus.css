@@ -1,0 +1,631 @@
+.homeTopWrapper {
+ 
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.recomendOuterWrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.steptoFollowWrap {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.steptoFollowtext {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.symptomsOuterWrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  background-color: #fff;
+  padding: 10px;
+  
+}
+
+.symptomsInnerWrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.quarantineInfo {
+  width: 190px;
+  height: 140px;
+  background-color: rgb(245, 245, 247);
+  border-radius: 14px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.quarantineInfoText {
+  position: absolute;
+  top: 5px;
+  font-size: 12px;
+  color: rgb(36, 40, 51);
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  left: 15px;
+  top: 15px;
+}
+
+.staySafeOuterWrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 15px;
+  background-color: #fff;
+}
+
+.staySafeInnerWrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.stayHeadText {
+  display: block;
+  font-size: 16px;
+  color: rgb(36, 40, 51);
+  font-weight: bold;
+}
+
+.staySafeBannerWrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.staySafeBannerWrap img {
+  width: 100%;
+}
+
+.staySafeBannerWrap p {
+  padding-top: 5px;
+  font-size: 14px;
+  color: rgb(36, 40, 51);
+  font-weight: 600;
+}
+
+.marginT10 {
+  margin-top: 10px;
+}
+
+.selfQuarantineWrap {
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+  padding: 20px 15px 0;
+  margin: 10px 0;
+  flex-direction: column;
+}
+
+.selfQuarantineHeadText {
+  font-size: 16px;
+  color: rgb(36, 40, 51);
+  font-weight: bold;
+  display: block;
+}
+
+.selfQuarantineInnerWrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.selfInnerInfoWrap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.selfInfoWrapRight {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 20px;
+}
+
+.selfImgWrapRight {
+  width: 190px;
+  height: 140px;
+  display: flex;
+  background-color: rgb(245, 245, 247);
+  border-radius: 14px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.selfInfoWrapLeft {
+  width: 45%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.selfImgWrapLeft {
+  width: 190px;
+  height: 140px;
+  display: flex;
+  background-color: rgb(245, 245, 247);
+  border-radius: 14px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.selfInfoTextRight {
+  font-size: 16px;
+  color: rgb(36, 40, 51);
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: right;
+}
+
+.selfInfoText {
+  font-size: 16px;
+  color: rgb(36, 40, 51);
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.selfInfoText a {
+  text-decoration: none;
+  color: rgb(78, 115, 216);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.ctaOuterWrap {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  justify-content: space-between;
+  padding: 0 10px;
+  z-index: 9;
+  background-image: linear-gradient(
+    to top,
+    rgb(255, 255, 255) 0,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.ctaInnerWrap {
+  flex: 1;
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.helpLineCta {
+  width: 100%;
+  display: flex;
+  height: 50px;
+  padding-top: 14px;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid rgb(68, 51, 221);
+  border-radius: 30px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.helpLineCta img {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+}
+
+.helpLineCta p {
+  color: rgb(68, 51, 221);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.testSelfCta {
+  width: 100%;
+  display: flex;
+  height: 50px;
+  padding-top: 14px;
+  justify-content: center;
+  background-color: rgb(68, 51, 221);
+  border-radius: 30px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testSelfCta img {
+  width: 17px;
+  height: 17px;
+  margin-right: 5px;
+  margin-top: 2px;
+}
+
+.testSelfCta p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.homeTopWrapNew {
+  width: 100%;
+  margin: 120px 0 0px;
+  background-color: #fff;
+  position: relative;
+}
+
+.homeTopBackWrap {
+  background-color: rgb(58, 168, 76);
+  position: absolute;
+  width: 100%;
+  height: 180px;
+}
+
+.homeTopinnerWrap {
+  width: 100%;
+  display: flex;
+  z-index: 2;
+  position: relative;
+  flex-direction: column;
+}
+
+.userInfoWrapNew {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+
+.userImgWrapNew {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.userImgWrapNew img {
+  width: 50px;
+  height: 50px;
+}
+
+.userStatusWrapNew {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.userStatusHeadText {
+  font-size: 22px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.userStatusSubText {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.thingsOuterWrapper {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+}
+
+.thingsInnerWrap {
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
+}
+
+.thingsInnerWrap ul {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+}
+
+.thingsInnerWrap ul li {
+  width: 33%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin-right: 5px;
+}
+
+.thingsInnerWrap ul li:last-child {
+  margin-right: 0;
+}
+
+.thingsInnerWrap ul li img {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  border-radius: 8px;
+}
+
+.thingsCtaWrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.thingCtaText {
+  font-size: 14px;
+  color: rgb(36, 40, 51);
+  font-weight: 600;
+  width: 80%;
+  display: flex;
+}
+
+.rightArrowWrap {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  transition: transform 1s;
+}
+
+.rightArrowWrap img {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.5s;
+}
+
+.rotateIcon img {
+  transform: rotate(90deg);
+  transition: transform 0.5s;
+}
+
+.positiveInfoText {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+}
+.noteText {
+  background-color: #fff;
+  font-size: 11px;
+  color: rgb(219, 114, 44);
+  font-weight: bold;
+  border-radius: 2px;
+  padding: 0 3px;
+  margin-right: 3px;
+}
+.confirmBtn {
+  outline: none;
+  border: 1px solid #fff;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 3px 10px;
+  background-color: transparent;
+  box-shadow: none;
+  margin-top: 10px;
+  align-self: flex-start;
+  display: flex;
+}
+
+.lowRiskStatusWrap {
+  width: 94%;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.lowRiskImgWrap {
+  width: 30%;
+  display: flex;
+}
+.lowRiskImgWrap img {
+  width: 55px;
+  height: 40px;
+  margin-right: 5px;
+}
+.lowRiskInfoWrap {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(255, 255, 255) 14%,
+    rgb(255, 255, 255) 100%
+  );
+  justify-content: space-between;
+  margin-left: -30px;
+  padding-left: 30px;
+}
+.threeThingText {
+  font-size: 14px;
+  color: rgb(36, 40, 51);
+  font-weight: 600;
+}
+.lowRiskInfoWrap img {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.5s;
+}
+.cautionInfoText {
+  font-size: 14px;
+  color: #fff;
+  line-height: 1.3;
+}
+.cautionInfoText .cautionSpan {
+  border-radius: 2px;
+  font-size: 11px;
+  color: white;
+  font-weight: bold;
+  border-bottom: white dotted 2px;
+}
+.cautionInfoText a {
+  font-weight: bold;
+  font-size: 11px;
+  color: #fff;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  display: inline-block;
+}
+.cautionInfoText a:hover {
+  color: #fff;
+}
+
+.weRecommendOuterWrap {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+}
+.weRecommendInnerWrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  padding: 15px 10px;
+}
+.weRecommendHeadText {
+  font-size: 14px;
+  color: rgb(36, 40, 51);
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.recommendInfoWrap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+.recommendImgWrap {
+  width: 93px;
+  height: 68px;
+}
+.recommendImgWrap img {
+  width: 93px;
+  height: 68px;
+}
+.recommendTextWrap {
+  padding-left: 10px;
+  width: 70%;
+}
+.recommendedText {
+  font-size: 14px;
+  color: rgb(36, 40, 51);
+  font-weight: 500;
+}
+.allRecommendationLinkText {
+  font-size: 14px;
+  color: rgb(0, 140, 255);
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.allRecommendationLinkText:hover {
+  color: rgb(0, 140, 255);
+}
+.arrowImgRight {
+  width: 20px;
+  height: 20px;
+}
+.arrowImgDown {
+  width: 20px;
+  height: 20px;
+  transform: rotate(90deg);
+}
+
+.getTestedOuterWrap {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+}
+
+.getTestedInnerWrap {
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 1px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.getTestedImgWrap {
+  width: 58px;
+  display: flex;
+  border-radius: 8px 0 0 8px;
+  background-color: rgb(223, 233, 245);
+  align-items: center;
+  justify-content: center;
+}
+.getTestedImgWrap img {
+  width: 27px;
+  height: 30px;
+}
+.getTestedInfoWrap {
+  display: flex;
+  padding: 15px 10px;
+  flex-direction: column;
+}
+.getTestedText {
+  font-size: 14px;
+  color: rgb(36, 40, 51);
+  font-weight: 500;
+}
+.testingLinkText {
+  font-size: 14px;
+  color: rgb(0, 140, 255);
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.testingLinkText:hover {
+  color: rgb(0, 140, 255);
+}
+.testingLinkText img {
+  width: 20px;
+  height: 20px;
+}

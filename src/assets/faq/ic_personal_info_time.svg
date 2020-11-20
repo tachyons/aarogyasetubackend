@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <circle id="prefix__a" cx="16" cy="16" r="16"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="prefix__b" fill="#fff">
+            <use xlink:href="#prefix__a"/>
+        </mask>
+        <use fill="#EFD7F6" xlink:href="#prefix__a"/>
+        <g mask="url(#prefix__b)">
+            <g transform="translate(8.935 11.733)">
+                <rect width="14.122" height="25.847" fill="#8917AA" rx="1.6"/>
+                <path fill="#FBEEFF" stroke="#8917AA" stroke-width=".8" d="M0.4 4.264H13.722V21.583H0.4z"/>
+                <g stroke-width=".7">
+                    <path fill="#8917AA" stroke="#8917AA" d="M2.953 5.906C1.325 5.906 0 4.582 0 2.953 0 1.325 1.325 0 2.953 0c1.629 0 2.953 1.325 2.953 2.953 0 1.629-1.324 2.953-2.953 2.953z" transform="translate(4.065 6.659)"/>
+                    <path stroke="#FBEEFF" stroke-linecap="round" d="M2.953 1.208L2.953 3.139 4.698 3.139" transform="translate(4.065 6.659)"/>
+                </g>
+                <rect width="2.665" height="1" x="5.729" y="1.992" fill="#FBEEFF" rx=".5"/>
+                <g fill="#8917AA" transform="translate(2.631 14.093)">
+                    <rect width="6.927" height="1" x="1.027" y=".575" rx=".5"/>
+                    <rect width="8.981" height="1" y="2.619" rx=".5"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

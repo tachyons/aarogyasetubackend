@@ -1,0 +1,129 @@
+{
+  "dialogue": {
+    "title": "Please give correct answers",
+    "message": "Accurate answers help us - help you better. Medical and support staff are valuable and very limited. Be a responsible citizen.",
+    "cta": "Ok, Got it"
+  },
+  "start": "Please note that information from this chat will be used for monitoring & management of the current health crisis and research in the fight against COVID-19.",
+  "gender": {
+    "label": "What is your Gender?",
+    "possible_values": [
+      {"key": 1, "value": "Male", "text": "Male"},
+      {"key": 2, "value": "Female", "text": "Female"},
+      {"key": 3, "value": "Other", "text": "Other"}
+    ]
+  },
+  "age": {"label": "Please type your age."},
+  "symptoms": {
+    "label": "Are you experiencing any of the following symptoms?",
+    "possible_values": [
+      {"value": "Cough", "key": 1, "text": "Cough"},
+      {"value": "Fever", "key": 2, "text": "Fever"},
+      {"value": "Difficulty in Breathing", "key": 3, "text": "Difficulty in Breathing"},
+      {
+        "value": "loss of senses of smell and taste",
+        "key": 4,
+        "text": "loss of senses of smell and taste"
+      },
+      {"value": "None of the Above", "key": 0, "text": "None of the Above"}
+    ]
+  },
+  "past": {
+    "label": "Have you ever had any of the following:",
+    "possible_values": [
+      {"value": "Diabetes", "key": 1, "text": "Diabetes"},
+      {"value": "Hypertension", "key": 2, "text": "Hypertension"},
+      {"value": "Lung disease", "text": "Lung disease", "key": 3},
+      {"value": "Heart Disease", "key": 4, "text": "Heart Disease"},
+      {"value": "Kidney Disorder", "key": 5, "text": "Kidney Disorder"},
+      {"value": "None of the Above", "text": "None of the Above", "key": 0}
+    ]
+  },
+  "symptom_past": {
+    "label": "Have you ever had any of the following:",
+    "possible_values": [
+      {"value": "Diabetes", "key": 1, "text": "Diabetes"},
+      {"value": "Hypertension", "key": 2, "text": "Hypertension"},
+      {"value": "Lung disease", "text": "Lung disease", "key": 3},
+      {"value": "Heart Disease", "key": 4, "text": "Heart Disease"},
+      {"value": "Kidney Disorder", "key": 5, "text": "Kidney Disorder"},
+      {"value": "None of the Above", "text": "None of the Above", "key": 0}
+    ]
+  },
+  "travel": {
+    "label": "Have you traveled anywhere internationally in the last 28-45 days?",
+    "possible_values": [
+      {"value": "Yes", "text": "Yes", "key": 1},
+      {"value": "No", "text": "No", "key": 0}
+    ]
+  },
+  "social": {
+    "label": "Which of the following apply to you?",
+    "possible_values": [
+      {
+        "value": "I have recently interacted or lived with someone who has tested positive for COVID -19",
+        "text": "I have recently interacted or lived with someone who has tested positive for COVID -19",
+        "key": 1
+      },
+      {
+        "value": "I am a healthcare worker and I examined a COVID-19 confirmed case without protective gear",
+        "text": "I am a healthcare worker and I examined a COVID-19 confirmed case without protective gear",
+        "key": 2
+      },
+      {"value": "None of the above", "text": "None of the above", "key": 0}
+    ]
+  },
+  "social_when": {
+    "label": "When did this interaction take place?",
+    "possible_values": [
+      {"value": "Less than 5 days ago", "text": "Less than 5 days ago", "key": 1},
+      {"value": "Greater than 5 days ago", "text": "Greater than 5 days ago", "key": 2},
+      {"value": "Greater than 14 days ago", "text": "Greater than 14 days ago", "key": 3}
+    ]
+  },
+  "symptom_past_travel_social": {
+    "label": "Which of the following apply to you?",
+    "possible_values": [
+      {
+        "value": "Traveled internationally in the last 14 days",
+        "text": "Traveled internationally in the last 14 days",
+        "key": 1
+      },
+      {
+        "value": "Recently interacted or lived or currently live with someone who has tested positive for COVID -19",
+        "text": "Recently interacted or lived or currently live with someone who has tested positive for COVID -19",
+        "key": 2
+      },
+      {"value": "Am a healthcare worker", "text": "Am a healthcare worker", "key": 3},
+      {"value": "None of the Above", "text": "None of the Above", "key": 0}
+    ]
+  },
+  "great": {
+    "label": "<p>Your infection risk is low. We recommend that you stay at home to avoid any chance of exposure to the Novel Coronavirus. <br><br></p><p>Retake the Self-Assessment Test if you develop symptoms or come in contact with a COVID-19 confirmed patient.</p><br/><p>Do visit <a target='_blank' href='https://www.mohfw.gov.in/'>https://www.mohfw.gov.in/</a> for more information</p>"
+  },
+  "unwell": {
+    "label": "<p>While you are unwell, your infection risk is low. Do remember that currently it is safer to consult a doctor through phone or video than to visit the hospital.</p><p></p><br><br><p>Do remember that currently it is safer to consult a doctor through phone or video than to visit the hospital.</p><br/><p>We recommend that you stay at home to avoid any chance of exposure to the Novel Coronavirus.</p><br><br><p>Do visit <a target='_blank' href='https://www.mohfw.gov.in/'>https://www.mohfw.gov.in/</a> for more information.</p>"
+  },
+  "not_eligible": {
+    "label": "<p>Your infection risk is moderate.</p><p></p><p><br><br>We recommend that you stay at home to avoid any chance of exposure to the Novel Coronavirus. Retake the Self-Assessment Test if you develop symptoms or come in contact with a COVID-19 confirmed patient again.<br><br></p><p></p><p>Do visit <a target='_blank' href='https://www.mohfw.gov.in/'>https://www.mohfw.gov.in/</a>  for more information</p>"
+  },
+  "quarantine": {
+    "label": "<p>Your infection risk is moderate. Please remember to stay quarantined for 14 days after your travel. While you are feeling absolutely healthy, it can take up to 2 weeks for symptoms to show, even if you are infected.</p><br/><p>If you experience any coughing, fever or difficulty breathing in the next two weeks, you must schedule your testing by calling toll free help line 1075.</p><br/><p>Home quarantine suggested practices: stay at home, do not have visitors, stay at least 6 feet away from other people in your household, use standard hygiene and wash hands frequently, do not share things like towels and utensils.</p><p> <br> <br> Do visit <a target='_blank' href='https://www.mohfw.gov.in/'>https://www.mohfw.gov.in/</a> for guidelines on home quarantine and taking care.</p>"
+  },
+  "eligible_suspect": {
+    "label": "<p>Your infection risk is moderate. If you are or were living with somebody who tested positive for COVID-19, please stay in Home Quarantine. While you are feeling absolutely healthy, it can up to 2 weeks for symptoms to show, even if you are infected. <br><br></p><p></p><p>Please get a test at the earliest from Day 5 onwards, and within 14 days of the first interaction or earlier if symptoms appear.</p><p></p><p>List of testing centers: <a target='_blank' href='https://icmr.nic.in/node/39071'>https://icmr.nic.in/node/39071</a></p><p>Home quarantine suggested practices: stay at home, do not have visitors, stay at least 6 feet away from other people in your household, use standard hygiene and wash hands frequently, do not share things like towels and utensils.</p><br/><p>Do visit <a target='_blank' href='https://www.mohfw.gov.in/'>https://www.mohfw.gov.in/</a> for guidelines on home quarantine and taking care.</p>"
+  },
+  "eligible": {
+    "label": "<p>You are advised for testing as your infection risk is high. Please call the toll-free help line 1075 to schedule your testing. <br><br></p><p></p><p>List of testing centers: <a target='_blank' href='https://icmr.nic.in/node/39071'>https://icmr.nic.in/node/39071</a></p><p></p><p><br><br><p>Please visit <a target='_blank' href='https://www.mohfw.gov.in/'>https://www.mohfw.gov.in/</a> for more information on testing and quarantine guidelines.</p>"
+  },
+  "eligible_travel": {
+    "label": "<p>You are advised for testing as your infection risk is high. Please call the toll-free help line 1075 to schedule your testing. <br><br></p><p></p><p>List of testing centers: <a target='_blank' href='https://icmr.nic.in/node/39071'>https://icmr.nic.in/node/39071</a></p><p></p><p><br><br><p>Please visit <a target='_blank' href='https://www.mohfw.gov.in/'>https://www.mohfw.gov.in/</a> for more information on testing and quarantine guidelines.</p>"
+  },
+  "confirm": {
+    "label": "<p>Thank you for taking this assessment.</p><br><br><p>If the information provided by you is accurate, it indicates that you are either unwell or at risk. Your test results and location history need to be sent to the Health Ministry to help you and help identify potential hotspots where infection may be spreading.</p><br><br>",
+    "possible_values": [
+      {"value": "Confirm and Proceed", "text": "Confirm and Proceed", "key": 1},
+      {"value": "I will do it later", "text": "I will do it later", "key": 2}
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+.pageFooter {
+  padding-top: 35px;
+  padding-bottom: 10px;
+  text-align: left;
+  display: block;
+  margin-bottom: 80px;
+}
+
+.linksOuterWrapper {
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkText {
+  font-size: 14px;
+  color: rgb(61, 129, 228);
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.linkDivider {
+  width: 5px;
+  height: 5px;
+  margin: 0 10px;
+  background-color: rgb(155, 155, 155);
+  display: flex;
+  border-radius: 50%;
+}
+
+.footerBtnBlock {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0 20px;
+}
+.footerBtnBlock img {
+  width: 76px;
+  height: 54px;
+}
+.footerBtnBlock p {
+  color: rgb(57, 56, 64);
+  font-size: 12px;
+  padding: 10px;
+}
+
+.footerLogoWrap {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.footerLogoWrap img {
+  width: 26px;
+  height: 45px;
+}
+.footerLogoWrap p {
+  font-family: Helvetica-Bold;
+  font-size: 11px;
+  font-weight: bold;
+  padding-top: 10px;
+}

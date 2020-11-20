@@ -1,0 +1,295 @@
+.lightBlueClr {
+  color: rgb(0, 140, 255);
+}
+
+.totalcasesWrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.totalcasestxt {
+  font-size: 12px;
+  padding-bottom: 8px;
+  font-weight: 500;
+}
+
+.totalcasesNo {
+  font-weight: 600;
+  font-size: 18px;
+  padding-bottom: 8px;
+}
+
+.redclr {
+  color: rgb(240, 99, 114);
+}
+
+.purpleclr {
+  color: rgb(120, 99, 240);
+}
+
+.lightgreenClr {
+  color: rgb(36, 153, 149);
+}
+
+.newCasesWrap {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5px;
+  align-items: center;
+}
+
+.impactedAreaInfoWrap {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background-color: rgb(0, 85, 183);
+  margin-top: 10px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 25px;
+  height: 162px;
+  position: absolute;
+  top: 110px;
+  left: 0;
+}
+
+.impactedAreaheader {
+  font-weight: 600;
+  font-size: 16px;
+  padding-bottom: 3px;
+  color: rgb(255, 255, 255);
+}
+
+.impactupdateTiming {
+  font-size: 12px;
+  padding-top: 3px;
+  color: rgb(231, 231, 231);
+}
+
+.impactedAreaInfoDetail {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  flex-direction: column;
+  box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.stateInfo {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+.stateNametxt {
+  font-size: 14;
+  font-weight: 600;
+  color: rgb(36, 40, 51);
+}
+
+.NumberofCaseswrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.countryImpactWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.impactedAreaOuterWrapper {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  padding-top: 27px;
+  padding-bottom: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.statewiseCalculaterWrap {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 15px;
+  flex-direction: column;
+}
+
+.statecovidHeader {
+  display: flex;
+  font-weight: 600;
+  padding-top: 30px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 15px;
+  font-size: 16px;
+  color: rgb(36, 40, 51);
+}
+
+.covidstateFilterWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid rgb(231, 231, 231);
+  padding: 16px;
+}
+
+.locationFilter {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+ 
+}
+.statColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex: 1;
+  padding-right: 0.5rem;
+}
+
+.ratedetectionWrapper {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0.3rem;
+}
+
+.ratedetectionouterWrapper {
+  display: flex;
+  flex-direction: column;
+  padding-right: 2px;
+  padding-left: 2px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+.stateaffectWrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.stateaffectWrapper1 {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  background-color: rgb(233, 236, 243);
+  height: 20px;
+  padding-top: 3px;
+}
+
+.covidpopulationWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.flipimage {
+  -moz-transition: transform 1s;
+  -webkit-transition: transform 1s;
+  transition: transform 1s;
+}
+
+.blueBackLoading {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background-color: rgb(0, 85, 183);
+  margin-top: 10px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 25px;
+  height: 162px;
+}
+.statInfoMainWrap {
+  width: 92%;
+  margin: 0 auto;
+  height: 233px;
+  display: flex;
+  margin-top: -75px;
+}
+.statInfoInnerWrap {
+  width: 100%;
+  flex-direction: column;
+  padding: 20px 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
+}
+.statInfoTopWrap {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  border-bottom: 1px solid rgb(231, 231, 231);
+  padding-bottom: 20px;
+}
+.statInfoBottomWrap {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.statInfoSmallLoader {
+  width: 140px;
+  height: 20px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+.statInfoBigLoader {
+  width: 100%;
+  height: 35px;
+  border-radius: 4px;
+}
+.graphOuterWrap {
+  width: 100%;
+  padding: 20px 15px;
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.graphHeadTextloader {
+  width: 113px;
+  height: 15px;
+}
+.graphMainLoader {
+  width: 100%;
+  height: 270px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.cityStatOuterWrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 15px;
+  background-color: #fff;
+  margin-top: 10px;
+}
+.cityHeadTextLoader {
+  width: 140px;
+  height: 15px;
+  margin-bottom: 10px;
+}
+.cityStatInnerwrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.cityTextLoader {
+  width: 25%;
+  height: 20px;
+  border-radius: 4px;
+}
+.cityCountLoader {
+  width: 65%;
+  height: 20px;
+  border-radius: 4px;
+}

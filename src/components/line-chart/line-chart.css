@@ -1,0 +1,17 @@
+.grid line {
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.grid text {
+  display: none;
+}
+
+.ymain line,
+.xmain line {
+  display: none;
+}
+
+.ymain text,
+.xmain text {
+  color: rgba(0, 0, 0, 0.4);
+}
